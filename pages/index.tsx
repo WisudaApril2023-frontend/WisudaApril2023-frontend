@@ -1,5 +1,6 @@
 import getConfig from 'next/config';
-
+import Image from 'next/image';
+import ImageTes from '@src/assets/images/tes.png'
 import Layout from '@src/components/Navigation/Layout';
 
 const { publicRuntimeConfig } = getConfig();
@@ -8,6 +9,9 @@ const { name } = publicRuntimeConfig.site;
 const Home = () => {
   return (
     <Layout>
+    <div>
+    <Image src={ImageTes} />
+    </div>
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="prose prose-blue mx-auto">
