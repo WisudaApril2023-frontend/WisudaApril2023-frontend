@@ -64,4 +64,14 @@
     font-family: 'Helvatica';
     src: url('../assets/fonts/Helvetica.otf');
   }
+
+  @font-face {
+    font-family: 'Heavy-Heap';
+    src: url('../assets/fonts/Heavy-Heap-rg.otf');
+  }
+  
+  @font-face {
+    font-family: 'Marker-Felt';
+    src: url('../assets/fonts/Marker-Felt.ttf');
+  }
 }
