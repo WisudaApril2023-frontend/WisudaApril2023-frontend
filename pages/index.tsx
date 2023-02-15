@@ -63,7 +63,7 @@ const ComingSoon = (): JSX.Element => {
       <div className="w-[350px] right-0 bottom-0 absolute z-10 mb-[-5px]">
         <Image src={blueObjectRight} />
       </div> 
-      <div className="w-[150px] right-0 top-0 mr-[650px] absolute z-10 mt-[380px]">
+      <div className="w-[150px] right-0 top-0 mr-[730px] absolute z-10 mt-[450px]">
         <Image src={bluedice} />
       </div>
       <div className="w-[80px] left-0 bottom-0 absolute z-10 rotate-[-15deg] ml-[20px] mb-[150px]">
@@ -78,9 +78,9 @@ const ComingSoon = (): JSX.Element => {
       <div className="w-[300px] left-0 bottom-0 absolute z-10 rotate-[-10deg] ml-[0px] mb-[-150px]">
         <Image src={yellowsnake} />
       </div>
-      {/* <div className='w-[50px] ml-[100px]'>
+      <div className='w-[50px] absolute z-10 mr-[100px]'>
         <ComingSoonComponents />
-      </div> */}
+      </div>
     </div>
   )
 }
