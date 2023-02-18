@@ -1,5 +1,4 @@
-import getConfig from 'next/config';
-import Image from 'next/image';
+import Image from 'next/image'
 
 import marbleblue from '@src/assets/images/bola-biru.svg'
 import goldenpawn from '@src/assets/images/pion-kuning.svg'

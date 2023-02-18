@@ -25,7 +25,7 @@ const ComingSoon = (): JSX.Element => {
       </div>
       <div className="w-[100px] absolute z-[1] mb-[400px] rotate-[15deg] ml-[400px] top-20">
         <Image src={goldenrook} />
-      </div> 
+      </div>
       <div className="sm:mt-[100px] mt-[130px] sm:ml-[100px] z-[10] relative">
         <div className="ml-[10px] mr-[10px]">
           <Image src={title} />
@@ -52,7 +52,7 @@ const ComingSoon = (): JSX.Element => {
       </div>
       <div className="w-[350px] right-0 bottom-0 absolute z-[3] mb-[-5px]">
         <Image src={blueObjectRight} />
-      </div> 
+      </div>
       <div className="w-[150px] right-0 top-0 mr-[730px] absolute z-[1] mt-[450px]">
         <Image src={bluedice} />
       </div>
