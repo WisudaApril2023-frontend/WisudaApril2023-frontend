@@ -27,41 +27,41 @@ import feather from '@src/assets/images/kipas.svg'
 const ComingSoonComponents = (): JSX.Element => {
   return (
     <div className="">
-      <div className="w-[150px] mt-[-460px] ml-[1080px] z-[10] absolute">
-        <Image src={convetti} />
+      <div className="absolute top-0 right-0 mr-[90px] mt-[360px] w-[100px] rotate-[45deg] z-[3]">
+        <Image src={pinkpawn} />
       </div>
-      <div className="w-[120px] mt-[250px] ml-[900px] rotate-[220deg] z-[10]">
-        <Image src={convetti2} />
-      </div>
-      <div className="w-[360px] mt-[-700px] ml-[630px] rotate-[-90deg] z-0">
-        <Image src={ladder} />
-      </div>
-      <div className="w-[340px] mt-[-30px] ml-[980px] absolute z-10">
-        <Image src={board} />
-      </div>
-      <div className="w-[500px] mt-[-200px] ml-[920px] rotate-[10deg] z-[5]">
-        <Image src={feather} />
-      </div>
-      <div className="w-[280px] mt-[-200px] ml-[750px] rotate-[-20deg] z-[2] transform -scale-x-100">
-        <Image src={pinksnake} />
-      </div>
-      <div className="w-[200px] mt-[-270px] ml-[1150px] rotate-[20deg] z-[10]">
-        <Image src={convetti2} />
-      </div>
-      <div className="w-[100px] mt-[-60px] ml-[1320px] rotate-[30deg]">
+      <div className="absolute top-0 right-0 mr-[95px] mt-[290px] w-[100px] rotate-[30deg] z-[2]">
         <Image src={goldenpawn} />
       </div>
-      <div className="w-[150px] mt-[50px] ml-[1080px] transform -scale-x-100 z-[10]">
-        <Image src={convetti} />
+      <div className="absolute top-0 right-0 w-[500px] mr-[120px] mt-[100px] rotate-[10deg] z-[1]">
+        <Image src={feather} />
       </div>
-      <div className="w-[150px] mt-[-430px] ml-[960px] absolute z-10">
+      <div className="absolute top-0 right-0 w-[400px] mr-[180px] mt-[280px] z-[3]">
+        <Image src={board} />
+      </div>
+      <div className="absolute top-0 right-0 w-[150px] mr-[430px] mt-[240px] z-[4]">
         <Image src={pinkdice} />
       </div>
-      <div className="w-[110px] mt-[-500px] ml-[880px] absolute z-10">
+      <div className="absolute top-0 right-0 w-[270px] mr-[500px] mt-[230px] z-[2] rotate-[-20deg] transform -scale-x-100">
+        <Image src={pinksnake} />
+      </div>
+      <div className="absolute top-0 right-0 w-[110px] mr-[560px] mt-[210px] z-[4]">
         <Image src={marbleblue} />
       </div>
-      <div className="w-[100px] mt-[-330px] ml-[1320px] rotate-[50deg]">
-        <Image src={pinkpawn} />
+      <div className="absolute top-0 right-0 w-[300px] mr-[540px] mt-[-100px] z-[0] rotate-[-90deg]">
+        <Image src={ladder} />
+      </div>
+      <div className="absolute top-0 right-0 w-[130px] mr-[330px] mt-[0px] z-[1]">
+        <Image src={convetti} />
+      </div>
+      <div className="absolute top-0 right-0 w-[150px] mr-[130px] mt-[220px] z-[1] rotate-[20deg]">
+        <Image src={convetti2} />
+      </div>
+      <div className="absolute top-0 right-0 w-[150px] mr-[380px] mt-[550px] z-[1] transform -scale-x-100">
+        <Image src={convetti} />
+      </div>
+      <div className="absolute top-0 right-0 w-[130px] mr-[530px] mt-[500px] z-[1] rotate-[230deg]">
+        <Image src={convetti2} />
       </div>
     </div>
   )

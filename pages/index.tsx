@@ -29,16 +29,16 @@ import ComingSoonComponents from '@src/components/monopoly/ComingSoonComponents'
 const ComingSoon = (): JSX.Element => {
   return (
     <div className="bg-gradient-to-r from-white to-[#913175] h-screen relative overflow-hidden">
-      <div className="w-[130px] pt-[436px] left-0 bottom-0 absolute z-10 top-[-450px] ml-[200px] rotate-[-30deg]">
+      <div className="w-[130px] left-0 top-0 absolute z-[1] ml-[160px] rotate-[-30deg]">
         <Image src={marbleblue} />
       </div>
-      <div className="w-[140px] pt-[436px] z-0 left-0 bottom-0 absolute top-[-390px] ml-[0px] rotate-[10deg]">
+      <div className="w-[160px] mt-[50px] z-[1] left-0 top-0 absolute ml-[0px] rotate-[10deg]">
         <Image src={marblegreen} />
       </div>
-      <div className="w-[100px] absolute z-10 mb-[400px] rotate-[15deg] ml-[400px] top-20">
+      <div className="w-[100px] absolute z-[1] mb-[400px] rotate-[15deg] ml-[400px] top-20">
         <Image src={goldenrook} />
       </div> 
-      <div className="mt-[100px] ml-[100px] z-20 relative">
+      <div className="mt-[100px] ml-[100px] z-[3] relative">
         <Image src={title} />
         <div className="w-1/4">
           <div className="font-[Marker-Felt] text-[#674188] font-medium text-[18px] mt-[10px]">
@@ -52,33 +52,30 @@ const ComingSoon = (): JSX.Element => {
       <div className="right-0 absolute top-[-2px] h-screen overflow-hidden z-[1]">
         <Image src={layer} />
       </div>
-      <div className="w-[350px] left-0 bottom-0 absolute z-10 mb-[-5px]">
+      <div className="w-[350px] left-0 bottom-0 absolute z-[2] mb-[-5px]">
         <Image src={blueObjectLeft} />
       </div>
-      <div className="w-screen place-items-center grid z-0">
-        <div className="w-[700px] bottom-0 mb-[-5px] absolute">
+      <div className="w-screen place-items-center grid z-[0]">
+        <div className="w-[550px] bottom-0 mb-[-5px] mr-[200px] absolute">
           <Image src={matahari} />
         </div>
       </div>
-      <div className="w-[350px] right-0 bottom-0 absolute z-10 mb-[-5px]">
+      <div className="w-[350px] right-0 bottom-0 absolute z-[2] mb-[-5px]">
         <Image src={blueObjectRight} />
       </div> 
-      <div className="w-[150px] right-0 top-0 mr-[730px] absolute z-10 mt-[450px]">
+      <div className="w-[150px] right-0 top-0 mr-[730px] absolute z-[1] mt-[450px]">
         <Image src={bluedice} />
       </div>
       <div className="w-[80px] left-0 bottom-0 absolute z-10 rotate-[-15deg] ml-[20px] mb-[150px]">
         <Image src={bluepawn} />
       </div>
-      <div className="w-[400px] bottom-0 right-0 mr-[600px] absolute z-10 mb-[-70px]">
+      <div className="w-[400px] bottom-0 right-0 mr-[600px] absolute z-[1] mb-[-70px]">
         <Image src={redsnake} />
       </div>
-      {/* <div className="w-[350px] transform scale-x-[-1] left-0 bottom-0 absolute z-10 rotate-[-10deg] ml-[700px] mb-[200px]">
-        <Image src={pinksnake} />
-      </div> */}
-      <div className="w-[300px] left-0 bottom-0 absolute z-10 rotate-[-10deg] ml-[0px] mb-[-150px]">
+      <div className="w-[300px] left-0 bottom-0 absolute z-[3] rotate-[-10deg] ml-[0px] mb-[-150px]">
         <Image src={yellowsnake} />
       </div>
-      <div className='w-[50px] absolute z-[5] bottom-0 mb-[160px] right-0 mr-[1500px]'>
+      <div className='w-[50px] absolute z-[2] top-0 right-0'>
         <ComingSoonComponents />
       </div>
     </div>
