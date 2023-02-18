@@ -1,5 +1,4 @@
-import getConfig from 'next/config';
-import Image from 'next/image';
+import Image from 'next/image'
 
 import title from '@src/assets/images/under-construction.svg'
 import matahari from '@src/assets/backgrounds/background-matahari.svg'
@@ -13,7 +12,7 @@ import bluepawn from '@src/assets/images/gajah.svg'
 import bluedice from '@src/assets/images/dadu-biru.svg'
 import redsnake from '@src/assets/images/ular-merah.svg'
 import yellowsnake from '@src/assets/images/ular-kuning.svg'
-import ComingSoonComponents from '@src/components/monopoly/ComingSoonComponents';
+import ComingSoonComponents from '@src/components/monopoly/ComingSoonComponents'
 
 const ComingSoon = (): JSX.Element => {
   return (
