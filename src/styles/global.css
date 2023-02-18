@@ -18,6 +18,11 @@
   [type='time'],
   [type='week'],
   [multiple],
+  * {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+  }
   textarea,
   select {
     @apply border-gray-300 focus:border-blue-500 focus:ring-blue-500 rounded-lg shadow-sm;
