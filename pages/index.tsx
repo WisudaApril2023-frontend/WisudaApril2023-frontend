@@ -52,7 +52,7 @@ const ComingSoon = (): JSX.Element => {
       </div>
       <div className="w-[350px] right-0 bottom-0 absolute z-[3] mb-[-5px]">
         <Image src={blueObjectRight} />
-      </div> 
+      </div>
       <div className="w-[150px] right-0 bottom-0 mr-[730px] absolute z-[1] mb-[100px]">
         <Image src={bluedice} />
       </div>
