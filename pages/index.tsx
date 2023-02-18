@@ -30,7 +30,7 @@ const ComingSoon = (): JSX.Element => {
         <div className="ml-[10px] mr-[10px]">
           <Image src={title} />
         </div>
-        <div className="sm:w-1/4 ml-[10px] mr-[10px]">
+        <div className="sm:w-1/2 md:w-1/4 ml-[10px] mr-[10px]">
           <div className="font-[Marker-Felt] text-[#674188] font-medium text-[18px] mt-[10px]">
             We’re currently working on something glorious, we’ll be launching soon.
           </div>
@@ -39,7 +39,7 @@ const ComingSoon = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="right-0 absolute top-[-2px] lg:mr-0 md:mr-[-200px] sm:mr-[-400px] mr-[-1000px] h-screen overflow-hidden z-[1]">
+      <div className="min-w-[830px] right-0 absolute top-[-2px] lg:mr-0 md:mr-[-300px] sm:mr-[-500px] mr-[-1000px] h-screen overflow-hidden z-[1] flex">
         <Image src={layer} />
       </div>
       <div className="w-[350px] left-0 bottom-0 absolute z-[5] mb-[-5px]">
@@ -52,8 +52,8 @@ const ComingSoon = (): JSX.Element => {
       </div>
       <div className="w-[350px] right-0 bottom-0 absolute z-[3] mb-[-5px]">
         <Image src={blueObjectRight} />
-      </div>
-      <div className="w-[150px] right-0 top-0 mr-[730px] absolute z-[1] mt-[450px]">
+      </div> 
+      <div className="w-[150px] right-0 bottom-0 mr-[730px] absolute z-[1] mb-[100px]">
         <Image src={bluedice} />
       </div>
       <div className="w-[80px] left-0 bottom-0 absolute z-[6] rotate-[-15deg] ml-[20px] mb-[150px]">
@@ -65,7 +65,7 @@ const ComingSoon = (): JSX.Element => {
       <div className="w-[300px] left-0 bottom-0 absolute z-[6] rotate-[-10deg] ml-[0px] mb-[-150px]">
         <Image src={yellowsnake} />
       </div>
-      <div className="absolute z-[2] top-0 right-0 lg:mr-[0px] md:mr-[-200px] sm:mr-[-400px] mr-[-1000px]">
+      <div className="absolute z-[2] top-0 right-0 lg:mr-[0px] md:mr-[-300px] sm:mr-[-500px] mr-[-1000px]">
         <ComingSoonComponents />
       </div>
     </div>
