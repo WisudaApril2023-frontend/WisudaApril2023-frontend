@@ -11,7 +11,7 @@ import ladder from '@src/assets/images/tangga.svg'
 import board from '@src/assets/images/papan.svg'
 import feather from '@src/assets/images/kipas.svg'
 
-const ComingSoonComponents = (): JSX.Element => {
+const Monopoly = (): JSX.Element => {
   return (
     <div className="">
       <div className="absolute top-0 right-0 mr-[90px] mt-[360px] w-[100px] rotate-[45deg] z-[3]">
@@ -54,4 +54,4 @@ const ComingSoonComponents = (): JSX.Element => {
   )
 }
 
-export default ComingSoonComponents
+export default Monopoly

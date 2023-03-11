@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import title from '@src/assets/images/under-construction.svg'
 import matahari from '@src/assets/backgrounds/background-matahari.svg'
-import layer from '@src/assets/backgrounds/layer tes.png'
+import layer from '@src/assets/backgrounds/layer-biru-kuning.png'
 import blueObjectLeft from '@src/assets/images/biru-kiri-bawah.svg'
 import blueObjectRight from '@src/assets/images/biru-kanan-bawah.svg'
 import marbleblue from '@src/assets/images/bola-biru.svg'
@@ -12,7 +12,7 @@ import bluepawn from '@src/assets/images/gajah.svg'
 import bluedice from '@src/assets/images/dadu-biru.svg'
 import redsnake from '@src/assets/images/ular-merah.svg'
 import yellowsnake from '@src/assets/images/ular-kuning.svg'
-import ComingSoonComponents from '@src/components/monopoly/ComingSoonComponents'
+import ComingSoonComponents from '@src/components/Monopoly/Monopoly'
 
 const ComingSoon = (): JSX.Element => {
   return (
@@ -20,13 +20,13 @@ const ComingSoon = (): JSX.Element => {
       <div className="w-[130px] sm:mt-0 mt-[-50px] left-0 top-0 absolute z-[1] ml-[160px] rotate-[-30deg]">
         <Image src={marbleblue} />
       </div>
-      <div className="w-[160px] sm:mt-[50px] z-[1] left-0 top-0 absolute ml-[0px] rotate-[10deg]">
+      <div className="w-[160px] sm:mt-[50px] mt-[-10px] z-[1] left-0 top-0 absolute ml-[0px] rotate-[10deg]">
         <Image src={marblegreen} />
       </div>
       <div className="w-[100px] absolute z-[1] mb-[400px] rotate-[15deg] ml-[400px] top-20">
         <Image src={goldenrook} />
       </div>
-      <div className="sm:mt-[100px] mt-[130px] sm:ml-[100px] z-[10] relative">
+      <div className="mt-[100px] sm:ml-[100px] z-[10] relative">
         <div className="ml-[10px] mr-[10px]">
           <Image src={title} />
         </div>
@@ -39,7 +39,7 @@ const ComingSoon = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="min-w-[830px] right-0 absolute top-[-2px] lg:mr-0 md:mr-[-300px] sm:mr-[-500px] mr-[-1000px] h-screen overflow-hidden z-[1] flex">
+      <div className="w-[790px] right-0 absolute top-[0px] bottom-[0px] lg:mr-0 md:mr-[-300px] sm:mr-[-500px] mr-[-1000px] h-full overflow-hidden z-[1] flex">
         <Image src={layer} />
       </div>
       <div className="w-[350px] left-0 bottom-0 absolute z-[5] mb-[-5px]">

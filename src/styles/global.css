@@ -79,4 +79,14 @@
     font-family: 'Marker-Felt';
     src: url('../assets/fonts/Marker-Felt.ttf');
   }
+
+  @font-face {
+    font-family: 'Excalibur-Nouveau';
+    src: url('../assets/fonts/Excalibur-Nouveau.ttf');
+  }
+
+  @font-face {
+    font-family: 'Market-Deco';
+    src: url('../assets/fonts/Market-Deco.ttf');
+  }
 }
