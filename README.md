@@ -10,7 +10,7 @@
 
 1. Clone repo
 ```
-git clone https://github.com/bernarduswillson/WisudaApril2023-frontend.git
+git clone https://github.com/WisudaApril2023-frontend/WisudaApril2023-frontend.git
 ```
 2. Install dependencies
 ```
@@ -38,3 +38,6 @@ Untuk type mengikuti semantic berikut.
 - `chore`: (updating grunt tasks etc; no production code change)
 
 ## Link
+- [Official Website](http://app.paradewisudaitb.com/)
+- [Figma](https://www.figma.com/file/co90c9aay7Twg1OW7fD1pU/Wisuda-April-2023?node-id=15%3A11&t=8sJFFPEAVc6Tk6Pj-1)
+- [To Do](https://docs.google.com/spreadsheets/d/1pwOLDkrPwWiRr_K_MEo24ND78vUxHHGwKLQbqyNFvf4/edit?usp=sharing)
