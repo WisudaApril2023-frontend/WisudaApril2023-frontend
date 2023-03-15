@@ -34,6 +34,26 @@ const Wispril = (): JSX.Element => {
   )
 }
 
+const Home = (): JSX.Element => {
+  return (
+    <a href='/'>
+    <div style={{ marginLeft: '20px',
+            fontFamily: 'Excalibur-Nouveau',
+            fontStyle: 'normal',
+            fontWeight: 500,
+            fontSize: '32px',
+            lineHeight: '38px',
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            color: '#8C4975',
+            textShadow: '2.5px 1.5px 0 #FFF1D7',
+            whiteSpace: 'nowrap' }}>
+            HOME
+    </div>
+    </a>
+  )
+}
+
 const About = (): JSX.Element => {
   return (
     <a href='/'>
@@ -94,13 +114,7 @@ const Event = (): JSX.Element => {
   )
 }
 
-const Login = (): JSX.Element => {
-  return (
-    <a href='/'>
-      <RedButton1></RedButton1>
-    </a>
-  )
-}
+
 
 
 const Navbar = (): JSX.Element => {
@@ -114,11 +128,11 @@ const Navbar = (): JSX.Element => {
             <div className='ml-4'><Wispril /></div>
           </div>
           <div className='flex items-center'>
+            <div className='ml-8'><Home /></div>
             <div className='ml-8'><About /></div>
             <div className='ml-8'><Timeline /></div>
             <div className='ml-8'><Event /></div>
             
-            <div className='ml-8'><Login /></div>
           </div>                     
         </div>
         
