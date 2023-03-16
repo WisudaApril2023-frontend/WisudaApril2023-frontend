@@ -119,7 +119,7 @@ const Event = (): JSX.Element => {
 
 const Navbar = (): JSX.Element => {
   return (
-      <nav className="fixed flex top-0 w-full justify-center z-50">
+      <nav className="fixed flex top-0 left-0 right-0 z-50">
         <div className="bg-[#ECA829] w-full filter pl-2 pr-8 py-1 h-20 lg:h-24 items-center border-solid border-1 border-black flex justify-between">
           <div className="w-3/12 flex items-center flex-grow">
             <a href='/'>
