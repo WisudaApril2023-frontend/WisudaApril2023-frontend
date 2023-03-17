@@ -1,24 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logoWispril from '@src/assets/images/logo.png';
+import logoWispril from '@src/assets/images/logo.svg';
 import { useState, useEffect } from 'react';
 
 const MENU_LIST = [
-  { text: 'ABOUT US', href: '/' },
-  { text: 'TIMELINE', href: '/' },
-  { text: 'EVENT', href: '/' },
-  { text: 'LOGIN', href: '/', border: true },
+  { text: 'ABOUT US', href: '/AboutUs' },
+  { text: 'TIMELINE', href: '/Timeline' },
+  { text: 'EVENT', href: '/Event' },
 ];
 
 const Wispril = (): JSX.Element => {
   return (
     <a href="/">
-      <div
+      <div className='text-[0px] sm:text-[32px]'
         style={{
           fontFamily: 'Excalibur-Nouveau',
           fontStyle: 'normal',
           fontWeight: 500,
-          fontSize: '32px',
+          // fontSize: '32px',
           lineHeight: '38px',
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
@@ -58,7 +57,7 @@ const Home = (): JSX.Element => {
 
 const About = (): JSX.Element => {
   return (
-    <a href="/">
+    <a href="/AboutUs">
       <div
         className="hover:underline"
         style={{
@@ -82,7 +81,7 @@ const About = (): JSX.Element => {
 
 const Timeline = (): JSX.Element => {
   return (
-    <a href="/">
+    <a href="/Timeline">
       <div
         className="hover:underline"
         style={{
@@ -106,7 +105,7 @@ const Timeline = (): JSX.Element => {
 
 const Event = (): JSX.Element => {
   return (
-    <a href="/">
+    <a href="/Event">
       <div
         className="hover:underline"
         style={{
@@ -154,7 +153,7 @@ const Navbar = (): JSX.Element => {
           <a href="/">
             <Image
               src={logoWispril}
-              width={110}
+              width={100}
               height={80}
               alt="Logo Wispril"
             />
@@ -165,7 +164,7 @@ const Navbar = (): JSX.Element => {
         </div>
         <div className="flex items-center">
           <div className="ml-8">
-            <div className={`sm:flex ${!isMenuHidden ? 'flex' : 'hidden'}`}>
+            <div className={`xl:flex ${!isMenuHidden ? 'flex' : 'hidden'}`}>
               <div className="ml-8">
                 <Home />
               </div>
@@ -181,7 +180,7 @@ const Navbar = (): JSX.Element => {
             </div>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="sm:hidden text-2xl text-white focus:outline-none"
+              className="xl:hidden text-2xl text-white focus:outline-none"
               style={{
                 marginLeft: '20px',
                 fontFamily: 'Excalibur-Nouveau',
@@ -198,7 +197,7 @@ const Navbar = (): JSX.Element => {
               ☰
             </button>
             {isDropdownOpen && (
-              <div className="absolute bg-[#ECA829] top-20 left-0 w-full sm:hidden border-solid border-5 border-[#bf7c00]">
+              <div className="absolute bg-[#ECA829] top-20 left-0 w-full xl:hidden border-solid border-5 border-[#bf7c00]">
                 <ul className="flex flex-col text-center">
                   {MENU_LIST.map((menu, index) => (
                     <li key={index} className="py-4">

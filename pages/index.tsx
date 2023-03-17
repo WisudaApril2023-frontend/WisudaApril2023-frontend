@@ -1,7 +1,9 @@
 // import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
+import Navbar from '@src/components/Navigation/Navbar'
 import Jumbotron from '@src/contexts/Homepage/Jumbotron'
+import Contents from '@src/contexts/Homepage/Contents'
 import Footer from '@src/components/Navigation/Footer'
 
 
@@ -12,11 +14,11 @@ const Home = (): JSX.Element => {
     backgroundSize: '1130px 1000px'
   }
   return (
-    <div className="bg-[#8C4975] h-[1000px] relative overflow-x-hidden" style={backgroundImageStyle}>
-      <div className='h-screen relative'>
+    <div className="bg-[#8C4975] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
+        <Navbar />
         <Jumbotron />
-      </div>
-      <Footer />
+        <Contents />
+        <Footer />
     </div>
   )
 }

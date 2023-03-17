@@ -36,7 +36,7 @@ const YellowButton2 = (): JSX.Element => {
       onMouseEnter = { handleMouseEnter }
       onMouseLeave = { handleMouseLeave }
       style = {{
-        position: 'absolute',
+        position: 'relative',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
