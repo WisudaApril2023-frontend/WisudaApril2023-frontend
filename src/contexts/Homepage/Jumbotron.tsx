@@ -1,40 +1,20 @@
 import Image from 'next/image'
 import Image1 from '@src/assets/images/logo.svg'
-import Image2 from '@src/assets/images/pita.svg'
+import Image2 from '@src/assets/images/pita1.svg'
+import confetti from '@src/assets/backgrounds/confetti.svg'
 
 const Jumbotron = (): JSX.Element => {
-  const handleExplore = () => {
-    if (window !== undefined) {
-      window.scrollTo({
-        top: window.innerHeight * 1.05,
-        behavior: 'smooth'
-      })
-    }
-  }
-
-
   return (
-    <div className="bg-purple">
-       
-      <div className="relative m-3 flex flex-wrap mx-auto justify-center">
-      
-          <div className='items-center justify-center'>
-              <Image src={Image1} />
-          <p 
-          className="mb-10 mx-auto text-base md:text-base text-center text-white"
-          style={{
-          width: '953px',
-          height: '145px',
-          left: '244px',
-          top: '674px',  
-          fontFamily: 'Market Deco',
-          fontStyle: 'normal',
-          fontWeight: 400,
-          fontSize: '16px' }}
-          >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias adipisci architecto. Odit totam quis fugiat unde eos itaque expedita natus nemo qui eius eveniet, optio rerum quisquam, a nisi!
-          </p>
-          </div>     
+    <div>
+      <div className='flex flex-col items-center pt-[30px]'>
+        <div className='absolute w-[500px]'>
+          <Image src={Image1} />
+        </div>
+      </div>
+      <div className="absolute top-0 font-[Market-Deco] text-center text-white mt-[420px]
+      xl:mx-[300px] lg:mx-[150px] md:mx-[50px] mx-[20px]
+      md:text-[16px] text-[13px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
     </div>
   )
