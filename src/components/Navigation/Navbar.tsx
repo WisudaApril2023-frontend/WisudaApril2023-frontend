@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/semi */
-/* eslint-disable @typescript-eslint/comma-dangle */
 import Image from 'next/image';
 import Link from 'next/link';
 import logoWispril from '@src/assets/images/logo.png';
@@ -129,6 +127,7 @@ const Event = (): JSX.Element => {
     </a>
   );
 };
+
 
 const Navbar = (): JSX.Element => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

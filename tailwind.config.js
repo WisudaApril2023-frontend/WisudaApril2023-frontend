@@ -32,7 +32,8 @@ module.exports = {
         cream400: '#F5D5C4',
         pink200: '#FEE9E6',
         pink300: '#E28281',
-        pink400: '#C86564'
+        pink400: '#C86564',
+        purple: '#8C4975'
       },      
       fontFamily: {
         archivo: ["Archivo", "sans-serif"],
