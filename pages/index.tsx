@@ -1,9 +1,9 @@
-import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
-
+import Card from '@src/components/Card/Card'
+import YellowButton1 from '@src/components/Button/YellowButton1'
 const Home = (): JSX.Element => {
   return (
     <div>
-      <UnderConstruction />
+      <Card />
     </div>
   )
 }
