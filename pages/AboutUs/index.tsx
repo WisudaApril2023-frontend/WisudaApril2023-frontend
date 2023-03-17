@@ -1,5 +1,5 @@
 import Navbar from '@src/components/Navigation/Navbar'
-// import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
+import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
 
 const AboutUs = (): JSX.Element => {
   return (
@@ -7,7 +7,7 @@ const AboutUs = (): JSX.Element => {
         <Navbar />
         <div className='h-[80px]'>
         </div>
-        {/* <UnderConstruction /> */}
+        <UnderConstruction />
     </div>
   )
 }
