@@ -1,4 +1,3 @@
-import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
 import Jumbotron from '@src/contexts/Homepage/Jumbotron'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
