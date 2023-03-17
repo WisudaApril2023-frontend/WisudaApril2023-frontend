@@ -1,6 +1,6 @@
 // import Image from 'next/image'
 
-const Sponsor = (): JSX.Element => {
+const Contents = (): JSX.Element => {
   return (
     <div>
         YOUR CODE
@@ -8,4 +8,4 @@ const Sponsor = (): JSX.Element => {
   )
 }
 
-export default Sponsor
+export default Contents
