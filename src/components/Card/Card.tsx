@@ -61,28 +61,25 @@
 		const currentCard = cards[currentCardIndex];
 
 		return (
-			<div className="relative inline-block">
-				<Image src={CardBox} />
-				<div
-					className="absolute top-0 left-0 p-4 flex flex-col justify-start items-start px-10 pt-5"
+			<div className="h-screen flex justify-center items-center">
+				<div className="relative rounded-xl bg-[#FFC261] w-[989px] h-[453px] overflow-hidden"
+					style={{ boxShadow: '0px 10px 15px rgba(255, 194, 97, 0.25)' }}
 				>
-					<h2 className="m-0 text-[40px] font-[Heavy-Heap] font-normal text-[#FFFFFF] leading-100 tracking-widest">
-						{currentCard.header}
-					</h2>
-					<p className="m-0 mt-1 text-base font-[Market-Deco] font-normal text-[#FFF1D7] text-[16px] leading-140 tracking-wide text-justify">
-						{currentCard.description}
-					</p>
+					<div className="absolute w-[113px] bottom-5 right-10 z-10 rotate-[-60.3deg]">
+						<Image src={Dice} />
+					</div>
+					<div
+						className="p-4 flex flex-col justify-start items-start px-10 pt-5 z-1"
+					>
+						<h2 className="m-0 text-[40px] font-[Heavy-Heap] font-normal text-[#FFFFFF] leading-100 tracking-widest">
+							{currentCard.header}
+						</h2>
+						<p className="m-0 mt-1 text-base font-[Market-Deco] font-normal text-[#FFF1D7] text-[16px] leading-140 tracking-wide text-justify">
+							{currentCard.description}
+						</p>
+					</div>
 				</div>
-				
-				<div className="absolute bottom-20 right-20 w-[113px] rotate-[-60.3deg]">
-					<Image src={Dice} />
-				</div>
-
-				<div className="absolute bottom-0 right-0 w-[167px]">
-					<Image src={Dice} />
-				</div>
-
-				<div className="absoluteflex">
+				<div className="absolute bottom-10 justify-center w-full">
 					<div className="flex justify-center">
 						<button onClick={handlePreviousClick}>
 							<Image src={Left} />
