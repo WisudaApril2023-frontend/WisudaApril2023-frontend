@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import Image1 from '@src/assets/images/logo.svg'
-import Image2 from '@src/assets/images/pita1.svg'
+import logo from '@src/assets/images/logo.svg'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
 const Jumbotron = (): JSX.Element => {
@@ -8,7 +7,7 @@ const Jumbotron = (): JSX.Element => {
     <div>
       <div className='flex flex-col items-center pt-[30px]'>
         <div className='absolute w-[500px]'>
-          <Image src={Image1} />
+          <Image src={logo} />
         </div>
       </div>
       <div className="absolute top-0 font-[Market-Deco] text-center text-white mt-[420px]
