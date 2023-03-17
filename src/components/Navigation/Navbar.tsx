@@ -139,8 +139,8 @@ const Navbar = (): JSX.Element => {
       }
     }
     window.addEventListener('resize', handleResize)
-
-    return () => {
+  
+    return (): void => {
       window.removeEventListener('resize', handleResize)
     }
   }, [])
@@ -231,4 +231,4 @@ const Navbar = (): JSX.Element => {
   )
 }
 
-export default Navbar;
+export default Navbar

@@ -19,7 +19,7 @@ const TextFooter = (): JSX.Element => {
                     md:top-3.5 md:text-lg
                     lg:top-5 lg:text-xl lg:tracking-widest
                     xl:top-6 xl:text-2xl xl:tracking-widest'
-          style={{fontFamily: 'Excalibur-Nouveau', color: '#8E4B72'}}>
+          style={{ fontFamily: 'Excalibur-Nouveau', color: '#8E4B72' }}>
       © PARADE WISUDA APRIL ITB 2023
     </div>
   )
