@@ -129,21 +129,7 @@ const Event = (): JSX.Element => {
 
 const Navbar = (): JSX.Element => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
-  const [isMenuHidden, setIsMenuHidden] = useState(true)
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 640) {
-        setIsDropdownOpen(false)
-        setIsMenuHidden(true)
-      }
-    }
-    window.addEventListener('resize', handleResize)
-  
-    return (): void => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
+  const [isMenuHidden] = useState(true)
 
   return (
     <nav className="fixed flex top-0 left-0 right-0 z-50">
