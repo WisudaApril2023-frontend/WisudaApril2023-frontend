@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import logoWispril from '@src/assets/images/logo.svg'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 const MENU_LIST = [
   { text: 'ABOUT US', href: '/AboutUs' },
