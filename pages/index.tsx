@@ -6,7 +6,6 @@ import Jumbotron from '@src/contexts/Homepage/Jumbotron'
 import Contents from '@src/contexts/Homepage/Contents'
 import Footer from '@src/components/Navigation/Footer'
 
-
 const Home = (): JSX.Element => {
   const backgroundImageStyle = {
     backgroundImage: `url(${confetti.src})`,

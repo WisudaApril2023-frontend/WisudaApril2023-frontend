@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import logoWispril from '@src/assets/images/logo.svg';
-import { useState, useEffect } from 'react';
+import Image from 'next/image'
+import Link from 'next/link'
+import logoWispril from '@src/assets/images/logo.svg'
+import { useState, useEffect } from 'react'
 
 const MENU_LIST = [
   { text: 'ABOUT US', href: '/AboutUs' },
   { text: 'TIMELINE', href: '/Timeline' },
-  { text: 'EVENT', href: '/Event' },
-];
+  { text: 'EVENT', href: '/Event' }
+]
 
 const Wispril = (): JSX.Element => {
   return (
@@ -23,13 +23,13 @@ const Wispril = (): JSX.Element => {
           textTransform: 'uppercase',
           color: '#8C4975',
           textShadow: '2.5px 1.5px 0 #FFF1D7',
-          whiteSpace: 'nowrap',
+          whiteSpace: 'nowrap'
         }}>
         WISUDA APRIL 2023
       </div>
     </a>
-  );
-};
+  )
+}
 
 const Home = (): JSX.Element => {
   return (
@@ -47,13 +47,13 @@ const Home = (): JSX.Element => {
           textTransform: 'uppercase',
           color: '#8C4975',
           textShadow: '2.5px 1.5px 0 #FFF1D7',
-          whiteSpace: 'nowrap',
+          whiteSpace: 'nowrap'
         }}>
         HOME
       </div>
     </a>
-  );
-};
+  )
+}
 
 const About = (): JSX.Element => {
   return (
@@ -71,13 +71,13 @@ const About = (): JSX.Element => {
           textTransform: 'uppercase',
           color: '#8C4975',
           textShadow: '2.5px 1.5px 0 #FFF1D7',
-          whiteSpace: 'nowrap',
+          whiteSpace: 'nowrap'
         }}>
         ABOUT US
       </div>
     </a>
-  );
-};
+  )
+}
 
 const Timeline = (): JSX.Element => {
   return (
@@ -95,13 +95,13 @@ const Timeline = (): JSX.Element => {
           textTransform: 'uppercase',
           color: '#8C4975',
           textShadow: '2.5px 1.5px 0 #FFF1D7',
-          whiteSpace: 'nowrap',
+          whiteSpace: 'nowrap'
         }}>
         TIMELINE
       </div>
     </a>
-  );
-};
+  )
+}
 
 const Event = (): JSX.Element => {
   return (
@@ -119,32 +119,31 @@ const Event = (): JSX.Element => {
           textTransform: 'uppercase',
           color: '#8C4975',
           textShadow: '2.5px 1.5px 0 #FFF1D7',
-          whiteSpace: 'nowrap',
+          whiteSpace: 'nowrap'
         }}>
         EVENT
       </div>
     </a>
-  );
-};
-
+  )
+}
 
 const Navbar = (): JSX.Element => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isMenuHidden, setIsMenuHidden] = useState(true);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const [isMenuHidden, setIsMenuHidden] = useState(true)
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 640) {
-        setIsDropdownOpen(false);
-        setIsMenuHidden(true);
+        setIsDropdownOpen(false)
+        setIsMenuHidden(true)
       }
-    };
-    window.addEventListener('resize', handleResize);
+    }
+    window.addEventListener('resize', handleResize)
 
     return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   return (
     <nav className="fixed flex top-0 left-0 right-0 z-50">
@@ -192,7 +191,7 @@ const Navbar = (): JSX.Element => {
                 textTransform: 'uppercase',
                 color: '#8C4975',
                 textShadow: '2.5px 1.5px 0 #FFF1D7',
-                whiteSpace: 'nowrap',
+                whiteSpace: 'nowrap'
               }}>
               ☰
             </button>
@@ -215,7 +214,7 @@ const Navbar = (): JSX.Element => {
                             textTransform: 'uppercase',
                             color: '#8C4975',
                             textShadow: '2.5px 1.5px 0 #FFF1D7',
-                            whiteSpace: 'nowrap',
+                            whiteSpace: 'nowrap'
                           }}>
                           {menu.text}
                         </a>
@@ -229,7 +228,7 @@ const Navbar = (): JSX.Element => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
 export default Navbar;
