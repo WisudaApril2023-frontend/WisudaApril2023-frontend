@@ -5,13 +5,13 @@ const Contents = (): JSX.Element => {
   return (
     <div className='h-[500px]'>
       <div className='sm:flex overflow-hidden'>
-        <div className='sm:w-1/3 sm:flex sm:justify-center'> 
+        <div className='sm:w-1/3 flex justify-center'> 
           <YellowButton2 />
         </div>
-        <div className='sm:w-1/3 sm:flex sm:justify-center'> 
+        <div className='sm:w-1/3 flex justify-center'> 
           <YellowButton2 />
         </div>
-        <div className='sm:w-1/3 sm:flex sm:justify-center'> 
+        <div className='sm:w-1/3 flex justify-center'> 
           <YellowButton2 />
         </div>
       </div>
