@@ -4,6 +4,7 @@ import confetti from '@src/assets/backgrounds/confetti.svg'
 import Navbar from '@src/components/Navigation/Navbar'
 import Jumbotron from '@src/contexts/Homepage/Jumbotron'
 import Contents from '@src/contexts/Homepage/Contents'
+import Sponsors from '@src/contexts/Homepage/Sponsor'
 import Footer from '@src/components/Navigation/Footer'
 
 const Home = (): JSX.Element => {
@@ -17,6 +18,7 @@ const Home = (): JSX.Element => {
         <Navbar />
         <Jumbotron />
         <Contents />
+        <Sponsors />
         <Footer />
     </div>
   )
