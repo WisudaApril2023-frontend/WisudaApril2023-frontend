@@ -75,14 +75,14 @@ const Card = (): JSX.Element => {
       }}
       pagination={{
         clickable: true
-        }}
-        modules={[Autoplay, Pagination]}>
+      }}
+      modules={[Autoplay, Pagination]}>
 
       {cards.map((currentCard, idx) => {
         return (
         <SwiperSlide key={idx}>
           <div className='relative rounded-xl bg-[#ECA829] xl:mx-[250px] lg:mx-[200px] md:mx-[150px] sm:mx-[100px] mx-[50px] overflow-hidden'
-            style={{ boxShadow: '0px 10px 15px rgba(255, 194, 97, 0.25)'}}
+            style={{ boxShadow: '0px 10px 15px rgba(255, 194, 97, 0.25)' }}
           >
             <div
               className='p-4 flex flex-col justify-start items-start sm:px-14 px-7 pt-5 z-1'
