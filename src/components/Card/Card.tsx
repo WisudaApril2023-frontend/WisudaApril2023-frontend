@@ -1,5 +1,5 @@
 	import Image from 'next/image';
-	import CardBox from '@src/assets/images/Card.svg';
+	// import CardBox from '@src/assets/images/Card.svg';
 	import Dice from '@src/assets/images/dadu-biru.svg';
 	import Left from '@src/assets/images/button-arrow-left.svg';
 	import Right from '@src/assets/images/button-arrow-right.svg';
@@ -62,8 +62,8 @@
 
 		return (
 			<div className="h-screen flex justify-center items-center">
-				<div className="relative rounded-xl bg-[#FFC261] w-[989px] h-[453px] overflow-hidden"
-					style={{ boxShadow: '0px 10px 15px rgba(255, 194, 97, 0.25)' }}
+				<div className="relative rounded-xl bg-[#ECA829] w-[989px] h-[453px] overflow-hidden"
+					style={{ boxShadow: '0px 15px 10px rgba(255, 194, 97, 0.25)' }}
 				>
 					<div className="absolute w-[113px] bottom-5 right-10 z-10 rotate-[-60.3deg]">
 						<Image src={Dice} />
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 			</div>
-		);
-	};
+		)
+	}
 
-	export default Card;
+	export default Card
