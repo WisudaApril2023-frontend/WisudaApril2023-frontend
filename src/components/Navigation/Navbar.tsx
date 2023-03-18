@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logoWispril from '@src/assets/images/logo.svg'
 import { useState } from 'react'
+// import { useEffect } from 'react'
 
 const MENU_LIST = [
   { text: 'ABOUT US', href: '/AboutUs' },
@@ -35,7 +36,7 @@ const Home = (): JSX.Element => {
   return (
     <a href="/">
       <div
-        className="hover:underline"
+        className="hover:scale-110 ease-in-out duration-200"
         style={{
           marginLeft: '20px',
           fontFamily: 'Excalibur-Nouveau',
@@ -59,7 +60,7 @@ const About = (): JSX.Element => {
   return (
     <a href="/AboutUs">
       <div
-        className="hover:underline"
+        className="hover:scale-110 ease-in-out duration-200"
         style={{
           marginLeft: '20px',
           fontFamily: 'Excalibur-Nouveau',
@@ -83,7 +84,7 @@ const Timeline = (): JSX.Element => {
   return (
     <a href="/Timeline">
       <div
-        className="hover:underline"
+        className="hover:scale-110 ease-in-out duration-200"
         style={{
           marginLeft: '20px',
           fontFamily: 'Excalibur-Nouveau',
@@ -107,7 +108,7 @@ const Event = (): JSX.Element => {
   return (
     <a href="/Event">
       <div
-        className="hover:underline"
+        className="hover:scale-110 ease-in-out duration-200"
         style={{
           marginLeft: '20px',
           fontFamily: 'Excalibur-Nouveau',
@@ -130,6 +131,21 @@ const Event = (): JSX.Element => {
 const Navbar = (): JSX.Element => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [isMenuHidden] = useState(true)
+  // const [setIsMenuHidden] = useState(true)
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     if (window.innerWidth >= 640) {
+  //       setIsDropdownOpen(false);
+  //       setIsMenuHidden(true);
+  //     }
+  //   };
+  //   window.addEventListener('resize', handleResize);
+
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
   return (
     <nav className="fixed flex top-0 left-0 right-0 z-50">
@@ -141,6 +157,8 @@ const Navbar = (): JSX.Element => {
               width={100}
               height={80}
               alt="Logo Wispril"
+              // effect when its hovered
+              className="hover:scale-105 ease-in-out duration-200"
             />
           </a>
           <div className="">
@@ -165,7 +183,7 @@ const Navbar = (): JSX.Element => {
             </div>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="xl:hidden text-2xl text-white focus:outline-none"
+              className="xl:hidden text-2xl text-white focus:outline-none hover:scale-110 ease-in-out duration-200"
               style={{
                 marginLeft: '20px',
                 fontFamily: 'Excalibur-Nouveau',
@@ -182,7 +200,7 @@ const Navbar = (): JSX.Element => {
               ☰
             </button>
             {isDropdownOpen && (
-              <div className="absolute bg-[#ECA829] top-20 left-0 w-full xl:hidden border-solid border-5 border-[#bf7c00]">
+              <div className="absolute bg-[#ECA827] top-24 left-0 w-full xl:hidden border-solid border-5 border-[#bf7c00]">
                 <ul className="flex flex-col text-center">
                   {MENU_LIST.map((menu, index) => (
                     <li key={index} className="py-4">

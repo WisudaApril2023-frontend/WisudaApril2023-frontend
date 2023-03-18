@@ -16,7 +16,7 @@ const Contents = (): JSX.Element => {
           <YellowButton2 />
         </div>
       </div>
-      <div>
+      <div className='mt-[200px]'>
         <Card />
       </div>
     </div>
