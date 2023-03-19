@@ -15,24 +15,12 @@ import { Autoplay, Pagination } from 'swiper'
 
 const cards =
 [{
-  header: 'CONTENT 1',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  header: '',
+  description: 'Dalam menggapai sebuah perjalanan tidak akan selamanya bergerak  mendapatkan sesuatu yang diinginkan. Akan ada waktunya untuk berhadapan dengan  sesuatu yang tidak mudah, akan ada turun ataupun naik. Akan dihadapkan kebahagiaan,  pun juga kesedihan. Selain itu, memutar memori dari sebuah hal yang pernah terjadi  menjadi bagian dari sebuah perjalanan, untuk bisa meningkatkan rasa semangat, atau  bahkan rasa motivasi dalam menggapai sebuah perjalanan tersebut untuk menggapai  kemenangan. Namun, hal tersebut dapat dimaknai yaitu memutar memori dari sebuah  perjalanan yang untuk menelisik sesuatu ke belakang dalam menggapai sebuah  perjalanan yang baik kedepannya.'
 },
 {
-  header: 'CONTENT 2',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-},
-{
-  header: 'CONTENT 3',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-},
-{
-  header: 'CONTENT 4',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-},
-{
-  header: 'CONTENT 5',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  header: '',
+  description: 'Tema boardgames disini membawa makna sebuah perjalanan seseorang yang  berawal dari sebuah titik yang sama yaitu saat awal mulai masuk ke ITB. Berikutnya  seseorang tersebut akan dihadapkan dengan realita kemahasiswaan bahwa kehidupan  di perkuliahan tidak selamanya maju. Akan ada dadu yang menjadi sebuah penunjuk  untuk membawa seseorang tersebut sampai nantinya mencapai titik kemenangannya.  Sepanjang itu pula, tidak hanya jalan naik dalam mencapai titik tertingginya. Namun,  akan ada saatnya dihadapkan dengan tantangan yang membuat turun, capek, dan tak  salah lagi untuk melihat kebelakang. Hal tersebut bukan berarti membuat sebuah  perjuangan berhenti, melainkan terus berlanjut dimana nilai progresif terus bertumbuh  seiring jalannya perjuangan. Hingga akhirnya seseorang tersebut mencapai sebuah  kemenangan yaitu menjadi seorang wisudawan yang mengakhiri purna studinya di ITB.  Namun, hal tersebut bukan merupakan akhir dari sebuah perjuangan, melainkan akan  dihadapkan dengan tantangan-tantangan yang baru didepan. Pada permainananya  setiap individu dapat menjadi wadah introspeksi dari memaknai naik turunnya sebuah  perjalanan dalam menggapai sebuah kemenangan dan impian. Perjalanan yang panjang  tersebut akan mencapai sebuah puncak besar apresiasi yaitu menjadi seorang  wisudawan.'
 }]
 
 const Card = (): JSX.Element => {
@@ -81,16 +69,14 @@ const Card = (): JSX.Element => {
       {cards.map((currentCard, idx) => {
         return (
         <SwiperSlide key={idx}>
-          <div className='relative rounded-xl bg-[#ECA829] xl:mx-[250px] lg:mx-[200px] md:mx-[150px] sm:mx-[100px] mx-[50px] overflow-hidden'
-            style={{ boxShadow: '0px 10px 15px rgba(255, 194, 97, 0.25)' }}
-          >
+          <div className='relative rounded-2xl bg-[#ECA829] xl:mx-[250px] lg:mx-[200px] md:mx-[150px] sm:mx-[100px] mx-[50px] overflow-hidden'>
             <div
               className='p-4 flex flex-col justify-start items-start sm:px-14 px-7 pt-5 z-1'
             >
               <h2 className='m-0 sm:text-[40px] text-[30px] font-[Heavy-Heap] font-normal text-[#FFFFFF] leading-100 tracking-widest'>
                 {currentCard.header}
               </h2>
-              <p className='m-0 mt-1 mb-6 text-base font-[Market-Deco] font-normal text-[#FFF1D7] sm:text-[16px] text-[12px] leading-140 tracking-wide text-justify'>
+              <p className='m-0 mt-6 mb-6 text-base font-[Market-Deco] font-normal text-[#FFF1D7] sm:text-[16px] text-[12px] leading-140 tracking-wide text-justify'>
                 {currentCard.description}
               </p>
             </div>

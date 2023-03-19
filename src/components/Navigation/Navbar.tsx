@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import logoWispril from '@src/assets/images/logo.svg'
+import logoWispril from '@src/assets/images/newlogo.svg'
 import { useState } from 'react'
 // import { useEffect } from 'react'
 
@@ -158,7 +158,7 @@ const Navbar = (): JSX.Element => {
               height={80}
               alt="Logo Wispril"
               // effect when its hovered
-              className="hover:scale-105 ease-in-out duration-200"
+              className="hover:scale-125 ease-in-out duration-200"
             />
           </a>
           <div className="">

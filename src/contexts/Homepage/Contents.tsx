@@ -4,8 +4,8 @@ import Card from '@src/components/Card/Card'
 
 const Contents = (): JSX.Element => {
   return (
-    <div className='h-[2000px]'>
-      <div className='sm:flex overflow-hidden'>
+    <div className='h-auto'>
+      {/* <div className='sm:flex overflow-hidden'>
         <div className='sm:w-1/3 flex justify-center'> 
           <YellowButton2 />
         </div>
@@ -15,8 +15,8 @@ const Contents = (): JSX.Element => {
         <div className='sm:w-1/3 flex justify-center'> 
           <YellowButton2 />
         </div>
-      </div>
-      <div className='mt-[200px]'>
+      </div> */}
+      <div className=''>
         <Card />
       </div>
     </div>
