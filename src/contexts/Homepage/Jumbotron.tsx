@@ -12,7 +12,7 @@ const Jumbotron = (): JSX.Element => {
       <div className="flex font-[Market-Deco] text-center text-white mt-[20px]
       xl:mx-[300px] lg:mx-[150px] md:mx-[50px] mx-[20px]
       md:text-[16px] text-[13px]">
-        Perayaan Wisuda April ITB 2023 sebaga wadah apresiasi terbuka untuk seluruh wisudawan, massa kampus dan masyarakat. Memiliki tujuan untuk menciptakan sebuah acara yang dapat meningkatkan rasa kepemilikan adan suasana wisuda.  Perayaan Wisuda April ITB 2023 mengangkat tema, 
+        Perayaan Wisuda April ITB 2023 sebagai wadah apresiasi terbuka untuk seluruh wisudawan, massa kampus dan masyarakat. Memiliki tujuan untuk menciptakan sebuah acara yang dapat meningkatkan rasa kepemilikan adan suasana wisuda.  Perayaan Wisuda April ITB 2023 mengangkat tema, 
       </div>
       <div className="font-[Market-Deco] text-center text-white mt-[20px] font-extrabold
       xl:mx-[300px] lg:mx-[150px] md:mx-[50px] mx-[20px]
