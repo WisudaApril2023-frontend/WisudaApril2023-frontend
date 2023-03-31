@@ -4,8 +4,10 @@ import bg from '@src/assets/images/Card.svg';
 import pp from 'src/assets/images/ppCard.png';
 
 interface destButton {
+  title: string;
   destination: string;
 }
+
 
 const TACard = (props: destButton): JSX.Element => {
   const { destination } = props;
