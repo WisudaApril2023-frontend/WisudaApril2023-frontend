@@ -4,6 +4,7 @@ import kipas from '@src/assets/backgrounds/kipasmatahari.svg'
 import TACard from '@src/components/Card/TACard'
 import TAGate from '@src/assets/images/TAGate.svg'
 import yellowSnake from '@src/assets/images/yellow-snake.svg'
+import blueSnake from '@src/assets/images/blue-snake.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
 
@@ -111,10 +112,16 @@ for (let i = 0 ; i < cards.length ; i += 9) {
 const TAFair = (): JSX.Element => {
   return (
     <div className='relative flex h-auto justify-center overflow-hidden'>
-      <div className='xl:absolute'>
+      <div className='absolute left-20 z-0'>
+        <Image src={yellowSnake}/>
+      </div>
+      <div className='xl:absolute top-5'>
         <Image src={TAGate}/>       
       </div>
-      <div className='absolute mx-[30px]'>
+      <div className='absolute right-20 z-0'>
+        <Image src={blueSnake}/>
+      </div>
+      <div className='absolute mx-[30px] top-5'>
         <Image src={TALogo} style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}/>
       </div>
       <div className='relative top-0 mt-[200px] w-full h-full flex justify-center items-center mb-[300px] md:mb-[600px] lg:mb-[700px]'>
