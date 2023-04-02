@@ -63,7 +63,7 @@ const BlueButton = (): JSX.Element => {
           color: '#FFE8C4'
         }}
       >
-        Button
+        view more
       </div>
     </div>
   )
