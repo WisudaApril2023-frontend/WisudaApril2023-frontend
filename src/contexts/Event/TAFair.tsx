@@ -5,6 +5,8 @@ import TACard from '@src/components/Card/TACard'
 import TAGate from '@src/assets/images/TAGate.svg'
 import yellowSnake from '@src/assets/images/yellow-snake.svg'
 import blueSnake from '@src/assets/images/blue-snake.svg'
+import gajah from '@src/assets/images/gajah.svg'
+import queen from '@src/assets/images/queen.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
 
@@ -112,6 +114,12 @@ for (let i = 0 ; i < cards.length ; i += 9) {
 const TAFair = (): JSX.Element => {
   return (
     <div className='relative flex h-auto justify-center overflow-hidden'>
+      <div className='absolute w-[150px] h-[323px] top-20 right-0 rotate-[-19.71deg]'>
+        <Image src={gajah} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
+      </div>
+      <div className='absolute top-20 left-0 rotate-[1.44deg]'>
+        <Image src={queen} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
+      </div>
       <div className='absolute left-20 z-0'>
         <Image src={yellowSnake}/>
       </div>
