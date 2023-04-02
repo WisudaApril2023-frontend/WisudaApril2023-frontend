@@ -8,7 +8,6 @@ interface destButton {
   destination: string
 }
 
-
 const TACard = (props: destButton): JSX.Element => {
   // const { destination } = props
 
