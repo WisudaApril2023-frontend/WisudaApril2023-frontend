@@ -1,4 +1,3 @@
-// import UnderConstruction from '@src/contexts/UnderConstruction/UnderConstruction'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
 import Navbar from '@src/components/Navigation/Navbar'
@@ -6,7 +5,6 @@ import Jumbotron from '@src/contexts/Homepage/Jumbotron'
 import Contents from '@src/contexts/Homepage/Contents'
 import Sponsors from '@src/contexts/Homepage/Sponsor'
 import Footer from '@src/components/Navigation/Footer'
-import TAFair from '@src/contexts/Event/TAFair'
 
 const Home = (): JSX.Element => {
   const backgroundImageStyle = {
@@ -16,12 +14,11 @@ const Home = (): JSX.Element => {
   }
   return (
     <div className="bg-[#8C4975] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
-        <TAFair />
-        {/* <Navbar /> */}
-        {/* <Jumbotron /> */}
-        {/* <Contents /> */}
-        {/* <Sponsors /> */}
-        {/* <Footer /> */}
+        <Navbar />
+        <Jumbotron />
+        <Contents />
+        <Sponsors />
+        <Footer />
     </div>
   )
 }
