@@ -15,89 +15,29 @@ SwiperCore.use([Autoplay, Navigation, Pagination])
 
 const cards = [
   {
-    nim: 1,
+    name: 'Aldo',
+    nim: '13521001',
+    prodi: 'Teknik Informatika',
     title: 'Card 1',
   },
   {
-    nim: 2,
+    name: 'Toni',
+    nim: '13521001',
+    prodi: 'Teknik Informatika',
     title: 'Card 2',
   },
   {
-    nim: 3,
-    title: 'Card 3',
-  },
-  {
-    nim: 4,
-    title: 'Card 4',
-  },
-  {
-    nim: 5,
-    title: 'Card 5',
-  },
-  {
-    nim: 6,
-    title: 'Card 6',
-  },
-  {
-    nim: 7,
-    title: 'Card 7',
-  },
-  {
-    nim: 8,
-    title: 'Card 8',
-  },
-  {
-    nim: 9,
-    title: 'Card 9',
-  },
-  {
-    nim: 10,
+    name: 'Tonis',
+    nim: '13521001',
+    prodi: 'Teknik Informatika',
     title: 'Card 10',
-  },
-  {
-    nim: 11,
-    title: 'Card 11',
-  },
-  {
-    nim: 12,
-    title: 'Card 12',
-  },
-  {
-    nim: 13,
-    title: 'Card 13',
-  },
-  {
-    nim: 14,
-    title: 'Card 14',
-  },
-  {
-    nim: 15,
-    title: 'Card 15',
-  },
-  {
-    nim: 16,
-    title: 'Card 16',
-  },
-  {
-    nim: 17,
-    title: 'Card 17',
-  },
-  {
-    nim: 18,
-    title: 'Card 18',
-  },
-  {
-    nim: 19,
-    title: 'Card 19',
-  },
-  {
-    nim: 20,
-    title: 'Card 20',
-  },
+  }
 ]
 
 type Card = {
-  nim: number
+  nim: string
+  name: string
+  prodi: string
   title: string
 }
 
@@ -136,7 +76,7 @@ const TAFair = (): JSX.Element => {
                     key={card.nim}
                     className='flex items-center justify-center w-full h-full'
                     >
-                    <TACard title={card.title} destination={card.nim.toString()} />
+                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} title={card.title} />
                   </div>
                 ))}
               </div>
