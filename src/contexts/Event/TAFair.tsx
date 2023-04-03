@@ -15,9 +15,9 @@ SwiperCore.use([Autoplay, Navigation, Pagination])
 
 const cards = [
   {
-    name: 'Aldo',
-    nim: '13521001',
-    prodi: 'Teknik Informatika',
+    name: 'Maulidya Nur Sabhitayarn ',
+    nim: '10218053',
+    prodi: 'TF',
     title: 'Card 1',
     image: TAGate.src
   },
