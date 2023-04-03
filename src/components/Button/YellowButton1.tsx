@@ -63,7 +63,7 @@ const YellowButton1 = (): JSX.Element => {
           color: '#FFE8C4'
         }}
       >
-        Button
+        Back
       </div>
     </div>
   )

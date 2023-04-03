@@ -17,22 +17,22 @@ const cards = [
   {
     name: 'Maulidya Nur Sabhitayarn ',
     nim: '10218053',
-    prodi: 'TF',
-    title: 'Card 1',
-    image: TAGate.src
+    prodi: 'Teknik Fisika',
+    fakultas: 'FTI',
+    image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
   },
   {
-    name: 'Toni',
-    nim: '13521001',
-    prodi: 'Teknik Informatika',
-    title: 'Card 2',
+    name: 'Pocut Nurulya Zulisa',
+    nim: '15418214',
+    prodi: 'Perencanaan Wilayah dan Kota',
+    fakultas: 'SAPPK',
     image: ''
   },
   {
-    name: 'Tonis',
-    nim: '13521001',
-    prodi: 'Teknik Informatika',
-    title: 'Card 10',
+    name: 'Fadilla Aziz Pustakaningrum',
+    nim: '20320015',
+    prodi: 'Astronomi',
+    fakultas: 'FMIPA',
     image: ''
   }
 ]
@@ -41,7 +41,7 @@ type Card = {
   nim: string
   name: string
   prodi: string
-  title: string
+  fakultas: string
   image: string
 }
 
@@ -80,7 +80,7 @@ const TAFair = (): JSX.Element => {
                     key={card.nim}
                     className='flex items-center justify-center w-full h-full'
                     >
-                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} title={card.title} image={card.image} />
+                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} fakultas={card.fakultas} image={card.image} />
                   </div>
                 ))}
               </div>
