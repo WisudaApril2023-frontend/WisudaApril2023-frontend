@@ -21,7 +21,9 @@ const ViewMore2 = (): JSX.Element => {
       <div className="font-[Excalibur-Nouveau] text-center text-white text-2xl tracking-widest mb-60" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
         oleh nim - nama prodi
         <div className='h-[50px]'></div>
-        <img src='https://i.kym-cdn.com/entries/icons/mobile/000/031/003/cover3.jpg' style={{ margin: '0 auto', filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}/>
+        <div className='mx-[50px]'>
+          <img src='https://i.kym-cdn.com/entries/icons/mobile/000/031/003/cover3.jpg' style={{ margin: '0 auto', filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}/>
+        </div>
         <div
           className="flex font-[Market-Deco] text-white mt-20
             xl:mx-[300px] lg:mx-[150px] md:mx-[50px] mx-[20px] xl:text-base lg:text-sm md:text-xs
