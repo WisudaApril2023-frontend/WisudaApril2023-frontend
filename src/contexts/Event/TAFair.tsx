@@ -15,10 +15,10 @@ SwiperCore.use([Autoplay, Navigation, Pagination])
 
 const cards = [
   {
-    name: 'Maulidya Nur Sabhitayarn ',
+    name: 'Maulidya Nur Sabhitayarn',
     nim: '10218053',
-    prodi: 'Fisika',
-    fakultas: 'FMIPA',
+    prodi: 'Teknik Fisika',
+    fakultas: 'FTI',
     image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
   },
   {
@@ -38,8 +38,8 @@ const cards = [
   {
     name: 'Balya Elfata',
     nim: '10217001',
-    prodi: 'Fisika',
-    fakultas: 'FMIPA',
+    prodi: 'Teknik Fisika',
+    fakultas: 'FTI',
     image: ''
   },
   {
@@ -94,8 +94,8 @@ const cards = [
   {
     name: 'Radisya Daffa Rihaatul Aisy',
     nim: '10518099',
-    prodi: 'Kimia',
-    fakultas: 'FMIPA',
+    prodi: 'Teknik Kimia',
+    fakultas: 'FTI',
     image: ''
   },
   {
