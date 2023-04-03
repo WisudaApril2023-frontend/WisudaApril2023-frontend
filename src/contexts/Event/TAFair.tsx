@@ -19,18 +19,21 @@ const cards = [
     nim: '13521001',
     prodi: 'Teknik Informatika',
     title: 'Card 1',
+    image: TAGate.src
   },
   {
     name: 'Toni',
     nim: '13521001',
     prodi: 'Teknik Informatika',
     title: 'Card 2',
+    image: ''
   },
   {
     name: 'Tonis',
     nim: '13521001',
     prodi: 'Teknik Informatika',
     title: 'Card 10',
+    image: ''
   }
 ]
 
@@ -39,6 +42,7 @@ type Card = {
   name: string
   prodi: string
   title: string
+  image: string
 }
 
 type GroupedCards = Card[][]
@@ -76,7 +80,7 @@ const TAFair = (): JSX.Element => {
                     key={card.nim}
                     className='flex items-center justify-center w-full h-full'
                     >
-                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} title={card.title} />
+                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} title={card.title} image={card.image} />
                   </div>
                 ))}
               </div>
