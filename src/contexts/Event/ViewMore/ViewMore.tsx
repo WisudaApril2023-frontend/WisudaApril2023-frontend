@@ -197,7 +197,7 @@ const ViewMore = (): JSX.Element => {
         </div>
         <div
           className="flex font-[Market-Deco] text-white mt-20
-            xl:mx-[300px] lg:mx-[150px] md:mx-[50px] mx-[20px] xl:text-base lg:text-sm md:text-xs
+            xl:mx-[300px] lg:mx-[150px] md:mx-[50px] sm:mx-[20px] mx-[10px] xl:text-base lg:text-sm md:text-xs text-[10px]
            text-base overflow-y-auto text-justify p-5" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
           {selectedData?.desc}
         </div>
