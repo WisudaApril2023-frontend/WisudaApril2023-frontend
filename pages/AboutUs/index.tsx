@@ -1,7 +1,7 @@
 import Navbar from '@src/components/Navigation/Navbar'
-import Footer from '@src/components/Navigation/Footer'
+// import Footer from '@src/components/Navigation/Footer'
 
-// import UnderConstruction from '@src/contexts/UnderConstruction/Page'
+import UnderConstruction from '@src/contexts/UnderConstruction/Page'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
 const AboutUs = (): JSX.Element => {
@@ -11,10 +11,11 @@ const AboutUs = (): JSX.Element => {
     backgroundSize: '1130px 1000px'
   }
   return (
-    <div className="bg-[#376692] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
+    <div className="h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
       <Navbar />
-      <div className='h-[100px]'></div>
-      <Footer />
+      <div className='h-[90px]'></div>
+      <UnderConstruction />
+      {/* <Footer /> */}
     </div>
   )
 }
