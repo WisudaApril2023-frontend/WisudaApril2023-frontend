@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 
 import yb1Default from '@src/assets/images/yellowbutton1_default.svg'
 import yb1Clicked from '@src/assets/images/yellowbutton1_clicked.svg'
 import yb1hovered from '@src/assets/images/yellowbutton1_hovered.svg'
 
 const YellowButton1 = (): JSX.Element => {
-  const router = useRouter()
+  // const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
   const [isClicked, setIsClicked] = useState(false)
 
@@ -21,13 +21,13 @@ const YellowButton1 = (): JSX.Element => {
 
   const handleClick = (): void => {
     setIsClicked(true)
-    void new Promise<void>((resolve) => {
-      setTimeout(() => {
-        setIsClicked(false)
-        router.push('/Event')
-        resolve()
-      }, 200)
-    }).catch((error) => console.error(error))
+    // void new Promise<void>((resolve) => {
+    //   setTimeout(() => {
+    //     setIsClicked(false)
+    //     router.push('/Event')
+    //     resolve()
+    //   }, 200)
+    // }).catch((error) => console.error(error))
   }
 
   let buttonImage = yb1Default
