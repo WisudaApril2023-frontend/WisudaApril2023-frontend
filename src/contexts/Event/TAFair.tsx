@@ -177,19 +177,19 @@ for (let i = 0 ; i < cards.length ; i += 9) {
 const TAFair = (): JSX.Element => {
   return (
     <div className='relative flex h-auto justify-center overflow-hidden'>
-      <div className='absolute w-[150px] h-[323px] top-20 right-0 rotate-[-19.71deg]'>
+      <div className='absolute w-[100px] mt-[600px] top-0 right-0 rotate-[-19.71deg]'>
         <Image src={gajah} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
       </div>
-      <div className='absolute top-20 left-0 rotate-[1.44deg]'>
+      <div className='absolute mt-[800px] top-0 left-0 rotate-[1.44deg]'>
         <Image src={queen} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
       </div>
-      <div className='absolute left-20 z-0'>
+      <div className='xl:absolute left-20 z-0'>
         <Image src={yellowSnake}/>
       </div>
       <div className='xl:absolute top-5'>
         <Image src={TAGate}/>       
       </div>
-      <div className='absolute right-20 z-0'>
+      <div className='xl:absolute right-20 z-0'>
         <Image src={blueSnake}/>
       </div>
       <div className='absolute mx-[30px] top-5'>

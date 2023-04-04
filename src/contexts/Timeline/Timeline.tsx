@@ -15,7 +15,7 @@ const Timeline = (): JSX.Element => {
   }
   return (
     <div className="relative h-auto overflow-hidden">
-      <div className='mx-[100px] mt-[50px] sm:mt-[100px] text-center'>
+      <div className='mx-[30px] mt-[50px] sm:mt-[100px] text-center'>
         <Image src={TLLogo} style={{ margin: '0 auto', filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}/>
       </div>
       <div className='relative mx-[30px] sm:mx-[50px] mt-[30px] sm:mt-[80px] mb-[300px] sm:mb-[500px] text-center'>
