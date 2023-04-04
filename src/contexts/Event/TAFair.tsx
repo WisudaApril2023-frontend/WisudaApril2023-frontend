@@ -3,7 +3,7 @@ import kipas from '@src/assets/backgrounds/kipasmatahari.svg'
 
 import TACard from '@src/components/Card/TACard'
 import TAGate from '@src/assets/images/TAGate.svg'
-import yellowSnake from '@src/assets/images/yellow-snake.svg'
+// import yellowSnake from '@src/assets/images/yellow-snake.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
 
@@ -26,7 +26,7 @@ const cards = [
     nim: '15418214',
     prodi: 'Perencanaan Wilayah dan Kota',
     fakultas: 'SAPPK',
-    image: ''
+    image: TAGate.src
   },
   {
     name: 'Fadilla Aziz Pustakaningrum',
