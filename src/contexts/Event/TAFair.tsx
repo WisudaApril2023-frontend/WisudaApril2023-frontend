@@ -22,141 +22,147 @@ const cards = [
     nim: '10218053',
     prodi: 'Teknik Fisika',
     fakultas: 'FTI',
-    image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
+    image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad',
+    image2: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
   },
   {
     name: 'Pocut Nurulya Zulisa',
     nim: '15418214',
     prodi: 'Perencanaan Wilayah dan Kota',
     fakultas: 'SAPPK',
-    image: TAGate.src
+    image: TAGate.src,
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
   {
     name: 'Fadilla Aziz Pustakaningrum',
     nim: '20320015',
     prodi: 'Astronomi',
     fakultas: 'FMIPA',
-    image: ''
+    image: '',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
   {
     name: 'Balya Elfata',
     nim: '10217001',
     prodi: 'Teknik Fisika',
     fakultas: 'FTI',
-    image: ''
+    image: '',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
   {
     name: 'Shafira Nur Azizah Mulyana',
     nim: '17018025',
     prodi: 'Seni Rupa',
     fakultas: 'FSRD',
-    image: ''
+    image: '',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
-  {
-    name: 'Ivan Bertrand Reynaldi Widagdo',
-    nim: '12318010',
-    prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
-    image: ''
-  },
-  {
-    name: 'Annisa Salsabiila',
-    nim: '15817014',
-    prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
-    fakultas: 'FTSL',
-    image: ''
-  },
-  {
-    name: 'Suci Nilasari Azis',
-    nim: '11618034',
-    prodi: 'Farmasi Klinik dan Komunitas',
-    fakultas: 'SF',
-    image: ''
-  },
-  {
-    name: 'Fahmi Faisal Habib Boedhi Wiarso',
-    nim: '13618115',
-    prodi: 'Teknik Dirgantara',
-    fakultas: 'FTMD',
-    image: ''
-  },
-  {
-    name: 'Samuel Julian Harjanto',
-    nim: '13118131',
-    prodi: 'Teknik Mesin',
-    fakultas: 'FTMD',
-    image: ''
-  },
-  {
-    name: 'Ahmad Toifur',
-    nim: '12318031',
-    prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
-    image: ''
-  },
-  {
-    name: 'Radisya Daffa Rihaatul Aisy',
-    nim: '10518099',
-    prodi: 'Teknik Kimia',
-    fakultas: 'FTI',
-    image: ''
-  },
-  {
-    name: 'Faiq Ahmad Ramadhan',
-    nim: '13718048',
-    prodi: 'Teknik Material',
-    fakultas: 'FTMD',
-    image: ''
-  },
-  {
-    name: 'Hamidah Azzahra',
-    nim: '17018014',
-    prodi: 'Seni Rupa',
-    fakultas: 'FSRD',
-    image: ''
-  },
-  {
-    name: 'Fatiha Agyal Shahwiya',
-    nim: '10318003',
-    prodi: 'Astronomi',
-    fakultas: 'FMIPA',
-    image: ''
-  },
-  {
-    name: 'Mangambar Arumsari',
-    nim: '17018009',
-    prodi: 'Seni rupa',
-    fakultas: 'FSRD',
-    image: ''
-  },
-  {
-    name: 'Advan Dwi Prayuda',
-    nim: '15318061',
-    prodi: 'Teknik Lingkungan',
-    fakultas: 'FTSL',
-    image: ''
-  },
-  {
-    name: 'Aldy Nurhajri Sidi',
-    nim: '15018020',
-    prodi: 'Teknik Sipil',
-    fakultas: 'FTSL',
-    image: ''
-  },
-  {
-    name: 'Muhammad Abdurrahman Jayadita',
-    nim: '12318063',
-    prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
-    image: ''
-  },
-  {
-    name: 'Muhammad Sultoni',
-    nim: '15018046',
-    prodi: 'Teknik Sipil',
-    fakultas: 'FTSL',
-    image: ''
-  }
+  // {
+  //   name: 'Ivan Bertrand Reynaldi Widagdo',
+  //   nim: '12318010',
+  //   prodi: 'Teknik Geofisika',
+  //   fakultas: 'FTTM',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Annisa Salsabiila',
+  //   nim: '15817014',
+  //   prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
+  //   fakultas: 'FTSL',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Suci Nilasari Azis',
+  //   nim: '11618034',
+  //   prodi: 'Farmasi Klinik dan Komunitas',
+  //   fakultas: 'SF',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Fahmi Faisal Habib Boedhi Wiarso',
+  //   nim: '13618115',
+  //   prodi: 'Teknik Dirgantara',
+  //   fakultas: 'FTMD',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Samuel Julian Harjanto',
+  //   nim: '13118131',
+  //   prodi: 'Teknik Mesin',
+  //   fakultas: 'FTMD',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Ahmad Toifur',
+  //   nim: '12318031',
+  //   prodi: 'Teknik Geofisika',
+  //   fakultas: 'FTTM',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Radisya Daffa Rihaatul Aisy',
+  //   nim: '10518099',
+  //   prodi: 'Teknik Kimia',
+  //   fakultas: 'FTI',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Faiq Ahmad Ramadhan',
+  //   nim: '13718048',
+  //   prodi: 'Teknik Material',
+  //   fakultas: 'FTMD',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Hamidah Azzahra',
+  //   nim: '17018014',
+  //   prodi: 'Seni Rupa',
+  //   fakultas: 'FSRD',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Fatiha Agyal Shahwiya',
+  //   nim: '10318003',
+  //   prodi: 'Astronomi',
+  //   fakultas: 'FMIPA',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Mangambar Arumsari',
+  //   nim: '17018009',
+  //   prodi: 'Seni rupa',
+  //   fakultas: 'FSRD',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Advan Dwi Prayuda',
+  //   nim: '15318061',
+  //   prodi: 'Teknik Lingkungan',
+  //   fakultas: 'FTSL',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Aldy Nurhajri Sidi',
+  //   nim: '15018020',
+  //   prodi: 'Teknik Sipil',
+  //   fakultas: 'FTSL',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Muhammad Abdurrahman Jayadita',
+  //   nim: '12318063',
+  //   prodi: 'Teknik Geofisika',
+  //   fakultas: 'FTTM',
+  //   image: ''
+  // },
+  // {
+  //   name: 'Muhammad Sultoni',
+  //   nim: '15018046',
+  //   prodi: 'Teknik Sipil',
+  //   fakultas: 'FTSL',
+  //   image: ''
+  // }
 ]
 
 type Card = {
@@ -165,6 +171,7 @@ type Card = {
   prodi: string
   fakultas: string
   image: string
+  image2?: string
 }
 
 type GroupedCards = Card[][]
@@ -214,7 +221,7 @@ const TAFair = (): JSX.Element => {
                     key={card.nim}
                     className='flex items-center justify-center w-full h-full'
                     >
-                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} fakultas={card.fakultas} image={card.image} />
+                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} fakultas={card.fakultas} image={card.image} image2={card.image2}/>
                   </div>
                 ))}
               </div>

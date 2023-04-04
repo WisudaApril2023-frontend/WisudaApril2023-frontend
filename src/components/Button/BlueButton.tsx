@@ -5,8 +5,9 @@ import bbClicked from '@src/assets/images/bluebutton_clicked.svg'
 import bbHovered from '@src/assets/images/bluebutton_hovered.svg'
 
 const BlueButton = (): JSX.Element => {
+
   const [isHovered, setIsHovered] = useState(false)
-  const [isClicked, setIsClicked] = useState(false)
+  const [isClicked] = useState(false)
 
   const handleMouseEnter = (): void => {
     setIsHovered(true)
@@ -16,12 +17,12 @@ const BlueButton = (): JSX.Element => {
     setIsHovered(false)
   }
 
-  const handleClick = (): void => {
-    setIsClicked(true)
-    setTimeout(() => {
-      setIsClicked(false)
-    }, 200)
-  }
+  // const handleClick = (): void => {
+  //   setIsClicked(true)
+  //   setTimeout(() => {
+  //     setIsClicked(false)
+  //   }, 200)
+  // }
 
   let buttonImage = bbDefault
   if (isClicked) {
@@ -32,7 +33,7 @@ const BlueButton = (): JSX.Element => {
 
   return (
     <div
-      onClick={ handleClick }
+      // onClick={ handleClick }
       onMouseEnter={ handleMouseEnter }
       onMouseLeave={ handleMouseLeave }
       style={{

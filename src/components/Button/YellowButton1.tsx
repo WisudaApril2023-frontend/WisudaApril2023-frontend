@@ -9,7 +9,7 @@ import yb1hovered from '@src/assets/images/yellowbutton1_hovered.svg'
 const YellowButton1 = (): JSX.Element => {
   // const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
-  const [isClicked, setIsClicked] = useState(false)
+  const [isClicked] = useState(false)
 
   const handleMouseEnter = (): void => {
     setIsHovered(true)

@@ -5,12 +5,14 @@ import BlueButton from '../Button/BlueButton'
 import bg from '@src/assets/images/Card.png'
 import pp from '@src/assets/images/ppCard.png'
 
-interface destButton {
+export interface destButton {
   name: string
   nim: string
   prodi: string
   fakultas: string
   image?: string
+  desc?: string
+  image2?: string
 }
 
 const TACard = (props: destButton): JSX.Element => {
@@ -27,8 +29,10 @@ const TACard = (props: destButton): JSX.Element => {
             <img src={isImage} alt="Image" className="rounded-full w-[180px] h-[180px]" style={{ margin: '0 auto', filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }} />
           <h2 className="text-2xl font-normal leading-8 tracking-0 mt-3 mx-2" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }} >{name}</h2>
           <h2 className="text-1xl font-normal leading-10 tracking-wider tracking-0.1 mt-[-10px]" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }} >{nim}</h2>
-          <div className="cardButton flex justify-center items-center mt-10" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
-            <BlueButton />
+          <div className="flex justify-center items-center mt-10 mx-auto" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
+            <a href={`Event/${nim}`} className="flex justify-center items-center mx-auto">
+              <BlueButton/>
+            </a>
           </div>
         </div>
       </div>
