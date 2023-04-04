@@ -58,111 +58,111 @@ const cards = [
     image: '',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
-  // {
-  //   name: 'Ivan Bertrand Reynaldi Widagdo',
-  //   nim: '12318010',
-  //   prodi: 'Teknik Geofisika',
-  //   fakultas: 'FTTM',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Annisa Salsabiila',
-  //   nim: '15817014',
-  //   prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
-  //   fakultas: 'FTSL',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Suci Nilasari Azis',
-  //   nim: '11618034',
-  //   prodi: 'Farmasi Klinik dan Komunitas',
-  //   fakultas: 'SF',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Fahmi Faisal Habib Boedhi Wiarso',
-  //   nim: '13618115',
-  //   prodi: 'Teknik Dirgantara',
-  //   fakultas: 'FTMD',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Samuel Julian Harjanto',
-  //   nim: '13118131',
-  //   prodi: 'Teknik Mesin',
-  //   fakultas: 'FTMD',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Ahmad Toifur',
-  //   nim: '12318031',
-  //   prodi: 'Teknik Geofisika',
-  //   fakultas: 'FTTM',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Radisya Daffa Rihaatul Aisy',
-  //   nim: '10518099',
-  //   prodi: 'Teknik Kimia',
-  //   fakultas: 'FTI',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Faiq Ahmad Ramadhan',
-  //   nim: '13718048',
-  //   prodi: 'Teknik Material',
-  //   fakultas: 'FTMD',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Hamidah Azzahra',
-  //   nim: '17018014',
-  //   prodi: 'Seni Rupa',
-  //   fakultas: 'FSRD',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Fatiha Agyal Shahwiya',
-  //   nim: '10318003',
-  //   prodi: 'Astronomi',
-  //   fakultas: 'FMIPA',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Mangambar Arumsari',
-  //   nim: '17018009',
-  //   prodi: 'Seni rupa',
-  //   fakultas: 'FSRD',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Advan Dwi Prayuda',
-  //   nim: '15318061',
-  //   prodi: 'Teknik Lingkungan',
-  //   fakultas: 'FTSL',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Aldy Nurhajri Sidi',
-  //   nim: '15018020',
-  //   prodi: 'Teknik Sipil',
-  //   fakultas: 'FTSL',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Muhammad Abdurrahman Jayadita',
-  //   nim: '12318063',
-  //   prodi: 'Teknik Geofisika',
-  //   fakultas: 'FTTM',
-  //   image: ''
-  // },
-  // {
-  //   name: 'Muhammad Sultoni',
-  //   nim: '15018046',
-  //   prodi: 'Teknik Sipil',
-  //   fakultas: 'FTSL',
-  //   image: ''
-  // }
+  {
+    name: 'Ivan Bertrand Reynaldi Widagdo',
+    nim: '12318010',
+    prodi: 'Teknik Geofisika',
+    fakultas: 'FTTM',
+    image: ''
+  },
+  {
+    name: 'Annisa Salsabiila',
+    nim: '15817014',
+    prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
+    fakultas: 'FTSL',
+    image: ''
+  },
+  {
+    name: 'Suci Nilasari Azis',
+    nim: '11618034',
+    prodi: 'Farmasi Klinik dan Komunitas',
+    fakultas: 'SF',
+    image: ''
+  },
+  {
+    name: 'Fahmi Faisal Habib Boedhi Wiarso',
+    nim: '13618115',
+    prodi: 'Teknik Dirgantara',
+    fakultas: 'FTMD',
+    image: ''
+  },
+  {
+    name: 'Samuel Julian Harjanto',
+    nim: '13118131',
+    prodi: 'Teknik Mesin',
+    fakultas: 'FTMD',
+    image: ''
+  },
+  {
+    name: 'Ahmad Toifur',
+    nim: '12318031',
+    prodi: 'Teknik Geofisika',
+    fakultas: 'FTTM',
+    image: ''
+  },
+  {
+    name: 'Radisya Daffa Rihaatul Aisy',
+    nim: '10518099',
+    prodi: 'Teknik Kimia',
+    fakultas: 'FTI',
+    image: ''
+  },
+  {
+    name: 'Faiq Ahmad Ramadhan',
+    nim: '13718048',
+    prodi: 'Teknik Material',
+    fakultas: 'FTMD',
+    image: ''
+  },
+  {
+    name: 'Hamidah Azzahra',
+    nim: '17018014',
+    prodi: 'Seni Rupa',
+    fakultas: 'FSRD',
+    image: ''
+  },
+  {
+    name: 'Fatiha Agyal Shahwiya',
+    nim: '10318003',
+    prodi: 'Astronomi',
+    fakultas: 'FMIPA',
+    image: ''
+  },
+  {
+    name: 'Mangambar Arumsari',
+    nim: '17018009',
+    prodi: 'Seni rupa',
+    fakultas: 'FSRD',
+    image: ''
+  },
+  {
+    name: 'Advan Dwi Prayuda',
+    nim: '15318061',
+    prodi: 'Teknik Lingkungan',
+    fakultas: 'FTSL',
+    image: ''
+  },
+  {
+    name: 'Aldy Nurhajri Sidi',
+    nim: '15018020',
+    prodi: 'Teknik Sipil',
+    fakultas: 'FTSL',
+    image: ''
+  },
+  {
+    name: 'Muhammad Abdurrahman Jayadita',
+    nim: '12318063',
+    prodi: 'Teknik Geofisika',
+    fakultas: 'FTTM',
+    image: ''
+  },
+  {
+    name: 'Muhammad Sultoni',
+    nim: '15018046',
+    prodi: 'Teknik Sipil',
+    fakultas: 'FTSL',
+    image: ''
+  }
 ]
 
 type Card = {
