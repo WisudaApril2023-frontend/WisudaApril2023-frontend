@@ -5,7 +5,6 @@ import bbClicked from '@src/assets/images/bluebutton_clicked.svg'
 import bbHovered from '@src/assets/images/bluebutton_hovered.svg'
 
 const BlueButton = (): JSX.Element => {
-
   const [isHovered, setIsHovered] = useState(false)
   const [isClicked] = useState(false)
 

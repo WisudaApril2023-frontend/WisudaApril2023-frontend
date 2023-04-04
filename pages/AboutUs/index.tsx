@@ -4,8 +4,6 @@ import Footer from '@src/components/Navigation/Footer'
 // import UnderConstruction from '@src/contexts/UnderConstruction/Page'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
-import ViewMore2 from '@src/contexts/Event/ViewMore/ViewMore2'
-
 const AboutUs = (): JSX.Element => {
   const backgroundImageStyle = {
     backgroundImage: `url(${confetti.src})`,
@@ -14,7 +12,9 @@ const AboutUs = (): JSX.Element => {
   }
   return (
     <div className="bg-[#376692] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
+      <Navbar />
       <div className='h-[100px]'></div>
+      <Footer />
     </div>
   )
 }
