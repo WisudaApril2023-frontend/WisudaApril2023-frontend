@@ -21,7 +21,7 @@ const YellowButton1 = (): JSX.Element => {
 
   const handleClick = (): void => {
     setIsClicked(true)
-    new Promise<void>((resolve) => {
+    void new Promise<void>((resolve) => {
       setTimeout(() => {
         setIsClicked(false)
         router.push('/Event')
