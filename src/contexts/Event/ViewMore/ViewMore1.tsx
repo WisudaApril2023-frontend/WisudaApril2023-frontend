@@ -18,7 +18,7 @@ const ViewMore2 = (): JSX.Element => {
         JUDUL
       </div>
 
-      <div className="font-[Excalibur-Nouveau] text-center text-white text-2xl tracking-widest mb-60" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
+      <div className="font-[Excalibur-Nouveau] text-center text-white text-2xl tracking-widest mb-[300px] sm:mb-[500px]" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
         oleh nim - nama prodi
         <div
           className="flex font-[Market-Deco] text-white mt-20
@@ -46,10 +46,10 @@ const ViewMore2 = (): JSX.Element => {
           laborum quidem tempora sint, labore corrupti ducimus!
         </div>
       </div>
-      <div className=" absolute left-0 bottom-0 w-1/3 mb-[10px]">
+      <div className=" absolute left-0 bottom-0 w-1/2 mb-[10px]">
         <Image src={Birukiribawah} />
       </div>
-      <div className="absolute right-0 bottom-0 w-1/3 mb-[10px]">
+      <div className="absolute right-0 bottom-0 w-1/2 mb-[10px]">
         <Image src={birukananbawah} />
       </div>
     </div>
