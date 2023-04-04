@@ -1,13 +1,13 @@
 import Navbar from '@src/components/Navigation/Navbar'
-import UnderConstruction from '@src/contexts/UnderConstruction/Page'
+import Timeline1 from '@src/contexts/Timeline/Timeline1'
 
 const Timeline = (): JSX.Element => {
   return (
     <div className='overflow-hidden'>
         <Navbar />
-        <div className='h-[80px]'>
+        <div className='h-[100px]'>
         </div>
-        <UnderConstruction />
+        <Timeline1 />
     </div>
   )
 }
