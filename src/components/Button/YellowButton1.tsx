@@ -21,10 +21,13 @@ const YellowButton1 = (): JSX.Element => {
 
   const handleClick = (): void => {
     setIsClicked(true)
-    void setTimeout(() => {
-      setIsClicked(false)
-      router.push('/Event')
-    }, 200)
+    new Promise<void>((resolve) => {
+      setTimeout(() => {
+        setIsClicked(false)
+        router.push('/Event')
+        resolve()
+      }, 200)
+    }).catch((error) => console.error(error))
   }
 
   let buttonImage = yb1Default
