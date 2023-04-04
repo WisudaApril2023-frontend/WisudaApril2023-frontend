@@ -16,7 +16,7 @@ interface destButton {
 const TACard = (props: destButton): JSX.Element => {
   const { name, nim, prodi, fakultas, image } = props
 
-  const [isImage] = useState(image || pp.src);
+  const [isImage] = useState(image ?? pp.src)
 
   return (
     <div>
