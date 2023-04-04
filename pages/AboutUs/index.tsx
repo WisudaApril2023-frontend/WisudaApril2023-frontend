@@ -1,10 +1,10 @@
 import Navbar from '@src/components/Navigation/Navbar'
 import Footer from '@src/components/Navigation/Footer'
 
-import UnderConstruction from '@src/contexts/UnderConstruction/Page'
+// import UnderConstruction from '@src/contexts/UnderConstruction/Page'
 import confetti from '@src/assets/backgrounds/confetti.svg'
 
-import ViewMore1 from '@src/contexts/Event/ViewMore/ViewMore1'
+// import ViewMore1 from '@src/contexts/Event/ViewMore/ViewMore1'
 import ViewMore2 from '@src/contexts/Event/ViewMore/ViewMore2'
 
 const AboutUs = (): JSX.Element => {

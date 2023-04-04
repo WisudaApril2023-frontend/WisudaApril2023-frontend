@@ -10,12 +10,12 @@ const Timeline = (): JSX.Element => {
     backgroundRepeat: 'repeat',
     backgroundSize: '1130px 1000px'
   }
-    return (
-      <div className="bg-[#8C4975] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
-        <Navbar />
-        <div className='h-[100px]'></div>
-        <TimeLine />
-        <Footer />
+  return (
+    <div className="bg-[#8C4975] h-auto relative overflow-x-hidden" style={backgroundImageStyle}>
+      <Navbar />
+      <div className='h-[100px]'></div>
+      <TimeLine />
+      <Footer />
     </div>
   )
 }
