@@ -15,7 +15,7 @@ import ta17018009 from '@src/assets/images/TAFair/TA/ta17018009.png'
 
 // import tanim from '@src/assets/images/TAFair/TA/tanim.jpg'
 
-const ViewMore2 = (): JSX.Element => {
+const ViewMore = (): JSX.Element => {
 
   const router = useRouter()
   
@@ -185,14 +185,14 @@ const ViewMore2 = (): JSX.Element => {
       <div className="sm:ml-60 mt-7 w-8 h-5 ml-[200px]">
         <Image src={ularkuning} alt="image" />
       </div>
-      <div className="font-[Excalibur-Nouveau] text-center text-white text-5xl mt-20 mb-1 tracking-widest" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
+      <div className="font-[Excalibur-Nouveau] text-center text-white xl:text-5xl text-4xl mt-20 mb-1 xl:mx-[100px] mx-[20px] tracking-widest" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
         {selectedData?.title}
       </div>
 
-      <div className="font-[Excalibur-Nouveau] text-center text-white text-2xl tracking-widest mb-[300px] sm:mb-[500px]" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
+      <div className="font-[Excalibur-Nouveau] text-center text-white text-2xl tracking-widest mb-[300px] sm:mb-[500px] mx-[20px]" style={{ filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}>
         oleh {selectedData?.nim} - {selectedData?.prodi}
         <div className='h-[50px]'></div>
-        <div className={`${isImgHidden} mx-[50px]`}>
+        <div className={`${isImgHidden} mx-[50px] sm:mx-[100px] md:mx-[200px] lg:mx-[300px] xl:mx-[400px]`}>
           <img src={selectedData?.image} style={{ margin: '0 auto', filter: 'drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25))' }}/>
         </div>
         <div
@@ -212,4 +212,4 @@ const ViewMore2 = (): JSX.Element => {
   )
 }
 
-export default ViewMore2
+export default ViewMore
