@@ -20,8 +20,8 @@ const cards = [
   {
     name: 'Maulidya Nur Sabhitayarn',
     nim: '10218053',
-    prodi: 'Teknik Fisika',
-    fakultas: 'FTI',
+    prodi: 'Fisika',
+    fakultas: 'FMIPA',
     image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad',
     image2: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
@@ -45,8 +45,8 @@ const cards = [
   {
     name: 'Balya Elfata',
     nim: '10217001',
-    prodi: 'Teknik Fisika',
-    fakultas: 'FTI',
+    prodi: 'Fisika',
+    fakultas: 'FMIPA',
     image: '',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
   },
