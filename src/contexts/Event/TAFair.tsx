@@ -9,6 +9,9 @@ import gajah from '@src/assets/images/gajah.svg'
 import queen from '@src/assets/images/queen.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
+import pp10318003 from '@src/assets/images/TAFair/PP/pp10318003.jpg'
+import pp11618034 from '@src/assets/images/TAFair/PP/pp11618034.jpg'
+import pp15817014 from '@src/assets/images/TAFair/PP/pp15817014.jpg'
 
 import SwiperCore, {Autoplay, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -70,14 +73,14 @@ const cards = [
     nim: '15817014',
     prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
     fakultas: 'FTSL',
-    image: ''
+    image: pp15817014.src
   },
   {
     name: 'Suci Nilasari Azis',
     nim: '11618034',
     prodi: 'Farmasi Klinik dan Komunitas',
     fakultas: 'SF',
-    image: ''
+    image: pp11618034.src
   },
   {
     name: 'Fahmi Faisal Habib Boedhi Wiarso',
@@ -126,7 +129,7 @@ const cards = [
     nim: '10318003',
     prodi: 'Astronomi',
     fakultas: 'FMIPA',
-    image: ''
+    image: pp10318003.src
   },
   {
     name: 'Mangambar Arumsari',
