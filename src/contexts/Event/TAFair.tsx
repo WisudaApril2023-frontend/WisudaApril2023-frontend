@@ -9,6 +9,9 @@ import gajah from '@src/assets/images/gajah.svg'
 import queen from '@src/assets/images/queen.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
+import pp10318003 from '@src/assets/images/TAFair/PP/pp10318003.jpg'
+import pp11618034 from '@src/assets/images/TAFair/PP/pp11618034.jpg'
+import pp15817014 from '@src/assets/images/TAFair/PP/pp15817014.jpg'
 
 import SwiperCore, {Autoplay, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -22,41 +25,35 @@ const cards = [
     nim: '10218053',
     prodi: 'Fisika',
     fakultas: 'FMIPA',
-    image: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad',
-    image2: 'https://yt3.googleusercontent.com/DNfVMdufPYu-o0Bf_AVC_wuNHGE-Yuf7YczMyM1dVXmM6hUqMx13xVwwuJZFHxX_Nl-5BtwR=s900-c-k-c0x00ffffff-no-rj'
+    image: ''
   },
   {
     name: 'Pocut Nurulya Zulisa',
     nim: '15418214',
     prodi: 'Perencanaan Wilayah dan Kota',
     fakultas: 'SAPPK',
-    image: TAGate.src,
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
+    image: ''
   },
   {
     name: 'Fadilla Aziz Pustakaningrum',
     nim: '20320015',
     prodi: 'Astronomi',
     fakultas: 'FMIPA',
-    image: '',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
+    image: ''
   },
   {
     name: 'Balya Elfata',
     nim: '10217001',
     prodi: 'Fisika',
     fakultas: 'FMIPA',
-    image: '',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
+    image: ''
   },
   {
     name: 'Shafira Nur Azizah Mulyana',
     nim: '17018025',
     prodi: 'Seni Rupa',
     fakultas: 'FSRD',
-    image: '',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus, eius quibusdam molestias nisi ab libero unde maioresipsam porro consequuntur ex nobis asperiores qui suscipit earum ad'
+    image: ''
   },
   {
     name: 'Ivan Bertrand Reynaldi Widagdo',
@@ -70,14 +67,14 @@ const cards = [
     nim: '15817014',
     prodi: 'Teknik dan Pengelolaan Sumber Daya Air',
     fakultas: 'FTSL',
-    image: ''
+    image: pp15817014.src
   },
   {
     name: 'Suci Nilasari Azis',
     nim: '11618034',
     prodi: 'Farmasi Klinik dan Komunitas',
     fakultas: 'SF',
-    image: ''
+    image: pp11618034.src
   },
   {
     name: 'Fahmi Faisal Habib Boedhi Wiarso',
@@ -126,7 +123,7 @@ const cards = [
     nim: '10318003',
     prodi: 'Astronomi',
     fakultas: 'FMIPA',
-    image: ''
+    image: pp10318003.src
   },
   {
     name: 'Mangambar Arumsari',
@@ -171,7 +168,6 @@ type Card = {
   prodi: string
   fakultas: string
   image: string
-  image2?: string
 }
 
 type GroupedCards = Card[][]
@@ -221,7 +217,7 @@ const TAFair = (): JSX.Element => {
                     key={card.nim}
                     className='flex items-center justify-center w-full h-full'
                     >
-                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} fakultas={card.fakultas} image={card.image} image2={card.image2}/>
+                    <TACard nim={card.nim} name={card.name} prodi={card.prodi} fakultas={card.fakultas} image={card.image}/>
                   </div>
                 ))}
               </div>
