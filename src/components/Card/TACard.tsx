@@ -1,5 +1,5 @@
 // import Image, { StaticImageData } from 'next/image'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 import BlueButton from '../Button/BlueButton'
 import bg from '@src/assets/images/Card.png'
@@ -18,7 +18,7 @@ export interface destButton {
 const TACard = (props: destButton): JSX.Element => {
   const { name, nim, prodi, fakultas, image } = props
 
-  const isImage = image ? image : pp.src;
+  const isImage = image ? image : pp.src
 
   return (
     <div>
