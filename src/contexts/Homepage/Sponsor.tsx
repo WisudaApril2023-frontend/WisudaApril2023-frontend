@@ -59,10 +59,10 @@ const Sponsor = (): JSX.Element => {
             <Image src = {macito}/>
           </div>
           <div className='relative w-1/6 flex flex-col mx-[10px] items-center justify-center'>
-            <Image src = {ayam}/>
+            <Image src = {tango}/>
           </div>
           <div className='relative w-1/6 flex flex-col xl:mr-[200px] mr-[20px] sm:mr-[50px] md:mr-[100px] lg:mr-[150px] items-center justify-center'>
-              <Image src = {tango}/>
+              <Image src = {ayam}/>
           </div>
         </div>
       </div>
