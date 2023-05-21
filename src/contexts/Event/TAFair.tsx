@@ -13,7 +13,7 @@ import pp10318003 from '@src/assets/images/TAFair/PP/pp10318003.jpg'
 import pp11618034 from '@src/assets/images/TAFair/PP/pp11618034.jpg'
 import pp15817014 from '@src/assets/images/TAFair/PP/pp15817014.jpg'
 
-import SwiperCore, {Autoplay, Navigation, Pagination } from 'swiper'
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.min.css'
 
@@ -24,37 +24,37 @@ const cards = [
     name: 'Maulidya Nur Sabhitayarn',
     nim: '10218053',
     prodi: 'Fisika',
-    fakultas: 'FMIPA',
+    fakultas: 'FMIPA'
   },
   {
     name: 'Pocut Nurulya Zulisa',
     nim: '15418214',
     prodi: 'Perencanaan Wilayah dan Kota',
-    fakultas: 'SAPPK',
+    fakultas: 'SAPPK'
   },
   {
     name: 'Fadilla Aziz Pustakaningrum',
     nim: '20320015',
     prodi: 'Astronomi',
-    fakultas: 'FMIPA',
+    fakultas: 'FMIPA'
   },
   {
     name: 'Balya Elfata',
     nim: '10217001',
     prodi: 'Fisika',
-    fakultas: 'FMIPA',
+    fakultas: 'FMIPA'
   },
   {
     name: 'Shafira Nur Azizah Mulyana',
     nim: '17018025',
     prodi: 'Seni Rupa',
-    fakultas: 'FSRD',
+    fakultas: 'FSRD'
   },
   {
     name: 'Ivan Bertrand Reynaldi Widagdo',
     nim: '12318010',
     prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
+    fakultas: 'FTTM'
   },
   {
     name: 'Annisa Salsabiila',
@@ -74,37 +74,37 @@ const cards = [
     name: 'Fahmi Faisal Habib Boedhi Wiarso',
     nim: '13618115',
     prodi: 'Teknik Dirgantara',
-    fakultas: 'FTMD',
+    fakultas: 'FTMD'
   },
   {
     name: 'Samuel Julian Harjanto',
     nim: '13118131',
     prodi: 'Teknik Mesin',
-    fakultas: 'FTMD',
+    fakultas: 'FTMD'
   },
   {
     name: 'Ahmad Toifur',
     nim: '12318031',
     prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
+    fakultas: 'FTTM'
   },
   {
     name: 'Radisya Daffa Rihaatul Aisy',
     nim: '10518099',
     prodi: 'Teknik Kimia',
-    fakultas: 'FTI',
+    fakultas: 'FTI'
   },
   {
     name: 'Faiq Ahmad Ramadhan',
     nim: '13718048',
     prodi: 'Teknik Material',
-    fakultas: 'FTMD',
+    fakultas: 'FTMD'
   },
   {
     name: 'Hamidah Azzahra',
     nim: '17018014',
     prodi: 'Seni Rupa',
-    fakultas: 'FSRD',
+    fakultas: 'FSRD'
   },
   {
     name: 'Fatiha Agyal Shahwiya',
@@ -117,31 +117,31 @@ const cards = [
     name: 'Mangambar Arumsari',
     nim: '17018009',
     prodi: 'Seni rupa',
-    fakultas: 'FSRD',
+    fakultas: 'FSRD'
   },
   {
     name: 'Advan Dwi Prayuda',
     nim: '15318061',
     prodi: 'Teknik Lingkungan',
-    fakultas: 'FTSL',
+    fakultas: 'FTSL'
   },
   {
     name: 'Aldy Nurhajri Sidi',
     nim: '15018020',
     prodi: 'Teknik Sipil',
-    fakultas: 'FTSL',
+    fakultas: 'FTSL'
   },
   {
     name: 'Muhammad Abdurrahman Jayadita',
     nim: '12318063',
     prodi: 'Teknik Geofisika',
-    fakultas: 'FTTM',
+    fakultas: 'FTTM'
   },
   {
     name: 'Muhammad Sultoni',
     nim: '15018046',
     prodi: 'Teknik Sipil',
-    fakultas: 'FTSL',
+    fakultas: 'FTSL'
   }
 ]
 
@@ -156,7 +156,7 @@ type Card = {
 type GroupedCards = Card[][]
 
 const groupedCards: GroupedCards = []
-for (let i = 0 ; i < cards.length ; i += 9) {
+for (let i = 0; i < cards.length; i += 9) {
   groupedCards.push(cards.slice(i, i + 9))
 }
 
@@ -164,16 +164,16 @@ const TAFair = (): JSX.Element => {
   return (
     <div className='relative flex h-auto justify-center overflow-hidden'>
       <div className='absolute w-[100px] mt-[600px] top-0 right-0 rotate-[-19.71deg]'>
-        <Image src={gajah} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
+        <Image src={gajah} style={{ filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }}/>
       </div>
       <div className='absolute mt-[800px] top-0 left-0 rotate-[1.44deg]'>
-        <Image src={queen} style={{filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}/>
+        <Image src={queen} style={{ filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }}/>
       </div>
       <div className='xl:absolute left-20 z-0'>
         <Image src={yellowSnake}/>
       </div>
       <div className='xl:absolute top-5'>
-        <Image src={TAGate}/>       
+        <Image src={TAGate}/>
       </div>
       <div className='xl:absolute right-20 z-0'>
         <Image src={blueSnake}/>
@@ -182,10 +182,10 @@ const TAFair = (): JSX.Element => {
         <Image src={TALogo} style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}/>
       </div>
       <div className='relative top-0 mt-[200px] w-full h-full flex justify-center items-center mb-[300px] md:mb-[600px] lg:mb-[700px]'>
-        <Swiper 
-          spaceBetween={30} 
-          slidesPerView={1} 
-          navigation={false} 
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1}
+          navigation={false}
           pagination={{ clickable: true }}
           autoplay={{
             delay: 4000,
