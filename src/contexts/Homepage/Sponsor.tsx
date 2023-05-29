@@ -98,13 +98,11 @@ const Sponsor = (): JSX.Element => {
           </div>
           <div className='flex xl:mt-[50px] mt-[10px] sm:mt-[20px] md:mt-[30px] lg:mt-[50px]'>
             <div className='relative w-1/3 flex flex-col xl:ml-[200px] ml-[20px] sm:ml-[50px] md:ml-[100px] lg:ml-[150px] items-center justify-center'>
-            
             </div>
             <div className='relative w-1/3 flex flex-col xl:mx-[100px] mx-[10px] sm:mx-[25px] md:mx-[50px] lg:mx-[75px] items-center justify-center'>
               <Image src = {infobandung}/>
             </div>
             <div className='relative w-1/3 flex flex-col xl:mr-[200px] mr-[20px] sm:mr-[50px] md:mr-[100px] lg:mr-[150px] items-center justify-center'>
-              
             </div>
           </div>
         </div>

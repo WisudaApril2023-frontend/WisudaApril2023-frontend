@@ -9,9 +9,9 @@ import gajah from '@src/assets/images/gajah.svg'
 import queen from '@src/assets/images/queen.svg'
 import TALogo from '@src/assets/images/tafairlogo.svg'
 
-import pp10318003 from '@src/assets/images/TAFair/PP/pp10318003.jpg'
-import pp11618034 from '@src/assets/images/TAFair/PP/pp11618034.jpg'
-import pp15817014 from '@src/assets/images/TAFair/PP/pp15817014.jpg'
+import pp10318003 from '@src/assets/images/TAFair/PP/pp10318003.png'
+import pp11618034 from '@src/assets/images/TAFair/PP/pp11618034.png'
+import pp15817014 from '@src/assets/images/TAFair/PP/pp15817014.png'
 
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
