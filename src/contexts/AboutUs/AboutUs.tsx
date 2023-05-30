@@ -2,7 +2,7 @@ import Image from 'next/image'
 import aboutUsLogo from '@src/assets/images/AboutUs/Icon/organogramLogo.svg'
 import light from '@src/assets/images/AboutUs/Icon/ellipseLight.svg'
 import ketuaPelaksana from '@src/assets/images/AboutUs/Icon/ketuaPelaksana.svg'
-import queen from '@src/assets/images/AboutUs/Icon/queen.svg'
+// import queen from '@src/assets/images/AboutUs/Icon/queen.svg'
 import flowerLeft from '@src/assets/images/AboutUs/Icon/flowerLeft.svg'
 import flowerRight from '@src/assets/images/AboutUs/Icon/flowerRight.svg'
 import redStair from '@src/assets/images/AboutUs/Icon/redStair.svg'
@@ -94,44 +94,45 @@ import fotoKomandanLapangan3 from '@src/assets/images/AboutUs/icon/foto/Lapangan
 const AboutUs = (): JSX.Element => {
   return (
     <div className="overflow-hidden flex flex-col mb-[10rem]">
-      <div className="mt-[4rem] mx-auto h-[35rem]">
-        <div className="mx-[30px] text-center" style={{
-          margin: '0 auto',
+      <div className="mt-[4rem] h-auto w-screen">
+        <div className="mx-[20px] text-center" style={{
           filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))'
         }}>
           <Image
             src={aboutUsLogo}
           />
         </div>
-        <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-          <div className="relative text-center translate-x-[33.5%]">
-            <div className="absolute z-1 ml-[-12rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="mt-[50px] mx-[20px]">
+          <div className="relative text-center h-auto w-full">
+            <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center">
               <Image
                 src={light}
               />
             </div>
-            <div className="absolute z-2 mt-[8rem] ml-[-3.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-              <Image
-                src={fotoKetua}
-                width={250} height={300}
-              />
-            </div>
-            <div className="absolute z-3 mt-[4rem] ml-[-5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
               <Image
                 src={ketuaPelaksana}
               />
             </div>
-            <div className="absolute z-4 mt-[-1rem] ml-[-11.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoKetua}
+                width={300} height={300}
+              />
+            </div>
+            {/* <div className="mr-[30rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
               <Image
                 src={queen}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      <div className = "mt-[5rem]" >
+
+      {/* LANJUTKAAAANNNNNNNNNNNNNNNNNNNN */}
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/* <div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -142,7 +143,7 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+        </div> */}
       </div>
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
