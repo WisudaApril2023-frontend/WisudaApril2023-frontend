@@ -1,18 +1,10 @@
 import Image from 'next/image'
 import TLLogo from '@src/assets/images/timelinelogo.svg'
-import confetti from '@src/assets/backgrounds/confetti.svg'
-import Navbar from '@src/components/Navigation/Navbar'
 import timeline1 from '@src/assets/images/timeline1.svg'
-import Footer from '@src/components/Navigation/Footer'
 import blueObjectLeft from '@src/assets/images/biru-kiri-bawah.svg'
 import blueObjectRight from '@src/assets/images/biru-kanan-bawah.svg'
 
 const Timeline = (): JSX.Element => {
-  const backgroundImageStyle = {
-    backgroundImage: `url(${confetti.src})`,
-    backgroundRepeat: 'repeat',
-    backgroundSize: '1130px 1000px'
-  }
   return (
     <div className="relative h-auto overflow-hidden">
       <div className='mx-[30px] mt-[50px] sm:mt-[100px] text-center'>

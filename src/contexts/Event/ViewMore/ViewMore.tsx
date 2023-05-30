@@ -17,7 +17,7 @@ import ta17018009 from '@src/assets/images/TAFair/TA/ta17018009.png'
 
 const ViewMore = (): JSX.Element => {
   const router = useRouter()
-  type Data = {
+  interface Data {
     [key: number]: {
       title: string
       nim: string
@@ -32,7 +32,7 @@ const ViewMore = (): JSX.Element => {
       nim: '10218053',
       prodi: 'Fisika',
       image: '',
-      desc: 'Metode seismik merupakan metode geofisika aktif yang memanfaatkan sumber penjalaran gelombang seismik (seperti palu atau ledakan) ke dalam permukaan bumi yang digunakan untuk mengetahui kondisi di bawah permukaan bumi. Penelitian ini dilakukan dengan menggunakan metode numerik yaitu metode beda hingga untuk mendapatkan model interpretasi yang sesuai dengan data seismik lapangan. Berdasarkan kondisi tersebut, dilakukan pemodelan ke depan untuk mendapatkan kecepatan seismik dan kedalaman tiap lapisan bawah permukaan Cibeber. Diskritisasi dari domain permodelan ini menggunakan ukuran grid 160 × 160. Setelah itu, memasukkan parameter-parameter model yang dibutuhkan ke dalam MATLAB. Kemudian dilakukan proses trial and error pada parameter tersebut untuk mendapatkan pemodelan yang cocok dengan data lapangan Kawasan Cibeber. Setelah mengubah-ubah parameter model dan menemukan model yang cocok, didapatkanlah kedalaman tiap lapisan dan kecepatan seismik Kawasan X, Cibeber. Didapatkan hasil interpretasi bawah permukaan Kawasan X, Cibeber terbagi menjadi dua lapisan, yaitu 3 lapisan dan 4 lapisan. Kecepatan pada tiga lapisan sebesar 250 m/s, 535 m/s, 1000 m/s dengan ketebalan lapisan hingga 3 m ke bawah. Sedangkan pada empat lapisan sebesar 250 m/s, 435 m/s, 710 m/s, 1000 m/s dengan ketebalan lapisan hingga 13 m ke bawah. Kemudian, program MATLAB dengan metode beda hingga berhasil dimodifikasi untuk interpretasi bawah permukaan Kawasan X, Cibeber. ',
+      desc: 'Metode seismik merupakan metode geofisika aktif yang memanfaatkan sumber penjalaran gelombang seismik (seperti palu atau ledakan) ke dalam permukaan bumi yang digunakan untuk mengetahui kondisi di bawah permukaan bumi. Penelitian ini dilakukan dengan menggunakan metode numerik yaitu metode beda hingga untuk mendapatkan model interpretasi yang sesuai dengan data seismik lapangan. Berdasarkan kondisi tersebut, dilakukan pemodelan ke depan untuk mendapatkan kecepatan seismik dan kedalaman tiap lapisan bawah permukaan Cibeber. Diskritisasi dari domain permodelan ini menggunakan ukuran grid 160 × 160. Setelah itu, memasukkan parameter-parameter model yang dibutuhkan ke dalam MATLAB. Kemudian dilakukan proses trial and error pada parameter tersebut untuk mendapatkan pemodelan yang cocok dengan data lapangan Kawasan Cibeber. Setelah mengubah-ubah parameter model dan menemukan model yang cocok, didapatkanlah kedalaman tiap lapisan dan kecepatan seismik Kawasan X, Cibeber. Didapatkan hasil interpretasi bawah permukaan Kawasan X, Cibeber terbagi menjadi dua lapisan, yaitu 3 lapisan dan 4 lapisan. Kecepatan pada tiga lapisan sebesar 250 m/s, 535 m/s, 1000 m/s dengan ketebalan lapisan hingga 3 m ke bawah. Sedangkan pada empat lapisan sebesar 250 m/s, 435 m/s, 710 m/s, 1000 m/s dengan ketebalan lapisan hingga 13 m ke bawah. Kemudian, program MATLAB dengan metode beda hingga berhasil dimodifikasi untuk interpretasi bawah permukaan Kawasan X, Cibeber. '
     },
     15418214: {
       title: 'Analisis Keterlibatan Perempuan dalam Perencanaan Pembangunan Desa (Studi Kasus: Desa Cikadut dan Desa Mandalamekar, Kabupaten Bandung)',
@@ -169,10 +169,10 @@ const ViewMore = (): JSX.Element => {
     }
   }
   const id = router.query.id as string
-  const idNumber = parseInt(id as string)
+  const idNumber = parseInt(id)
   const selectedData = data[idNumber]
 
-  const [isImgHidden] = useState(selectedData?.image == '' ? 'hidden' : '')
+  const [isImgHidden] = useState(selectedData?.image === '' ? 'hidden' : '')
   return (
     <div className="relative h-auto overflow-hidden">
       <div className="sm:ml-16 mt-10 ml-[20px]">

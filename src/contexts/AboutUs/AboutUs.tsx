@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import confetti from '@src/assets/backgrounds/confetti.svg'
 import aboutUsLogo from '@src/assets/images/AboutUs/Icon/organogramLogo.svg'
 import light from '@src/assets/images/AboutUs/Icon/ellipseLight.svg'
 import ketuaPelaksana from '@src/assets/images/AboutUs/Icon/ketuaPelaksana.svg'
@@ -92,20 +91,14 @@ import fotoKomandanLapangan1 from '@src/assets/images/AboutUs/icon/foto/Lapangan
 import fotoKomandanLapangan2 from '@src/assets/images/AboutUs/icon/foto/Lapangan/4.png'
 import fotoKomandanLapangan3 from '@src/assets/images/AboutUs/icon/foto/Lapangan/3.png'
 
-
 const AboutUs = (): JSX.Element => {
-  const backgroundImageStyle = {
-    backgroundImage: `url(${confetti.src})`,
-    backgroundRepeat: 'repeat',
-    backgroundSize: '1130px 1000px',
-  };
   return (
     <div className="overflow-hidden flex flex-col mb-[10rem]">
       <div className="mt-[4rem] mx-auto h-[35rem]">
         <div className="mx-[30px] text-center" style={{
-              margin: '0 auto',
-              filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))',
-            }}>
+          margin: '0 auto',
+          filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))'
+        }}>
           <Image
             src={aboutUsLogo}
           />
@@ -117,7 +110,7 @@ const AboutUs = (): JSX.Element => {
                 src={light}
               />
             </div>
-            <div className="absolute z-2 mt-[8rem] ml-[-3.5rem]" style={{filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="absolute z-2 mt-[8rem] ml-[-3.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
               <Image
                 src={fotoKetua}
                 width={250} height={300}
@@ -151,7 +144,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -325,7 +317,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-      
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -346,9 +337,7 @@ const AboutUs = (): JSX.Element => {
             width={240} height={150}
           />
         </div>
-        
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -417,7 +406,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-      
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -439,7 +427,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -517,7 +504,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-      
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -539,7 +525,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -639,7 +624,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-      
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -661,7 +645,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -724,7 +707,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -746,7 +728,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -824,7 +805,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className = "mt-[5rem]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -846,7 +826,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="mt-[1rem] mx-auto h-[30rem] w-full">
         <div className="relative text-center translate-x-[33.5%]">
           <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -924,7 +903,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div>
       </div>
-
       <div className="h-[107rem]">
       </div>
       <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto mt-[4rem]"></hr>
@@ -932,7 +910,7 @@ const AboutUs = (): JSX.Element => {
         <Sponsors />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

@@ -145,7 +145,7 @@ const cards = [
   }
 ]
 
-type Card = {
+interface Card {
   nim: string
   name: string
   prodi: string
