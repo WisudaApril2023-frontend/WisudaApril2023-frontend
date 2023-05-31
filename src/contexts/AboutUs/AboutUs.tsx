@@ -2,13 +2,6 @@ import Image from 'next/image'
 import aboutUsLogo from '@src/assets/images/AboutUs/Icon/organogramLogo.svg'
 import light from '@src/assets/images/AboutUs/Icon/ellipseLight.svg'
 import ketuaPelaksana from '@src/assets/images/AboutUs/Icon/ketuaPelaksana.svg'
-// import queen from '@src/assets/images/AboutUs/Icon/queen.svg'
-import flowerLeft from '@src/assets/images/AboutUs/Icon/flowerLeft.svg'
-import flowerRight from '@src/assets/images/AboutUs/Icon/flowerRight.svg'
-import redStair from '@src/assets/images/AboutUs/Icon/redStair.svg'
-import blueStair from '@src/assets/images/AboutUs/Icon/blueStair.svg'
-import redStair2 from '@src/assets/images/AboutUs/Icon/redStair2.svg'
-import gajah from '@src/assets/images/AboutUs/icon/catur gajah.svg'
 import Sponsors from '@src/contexts/Homepage/Sponsor'
 import kesekjenan from '@src/assets/images/AboutUs/icon/Kesekjenan.svg'
 import sekretaris from '@src/assets/images/AboutUs/icon/Sekretaris.svg'
@@ -128,9 +121,6 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
-      
-      {/* LANJUTKAAAANNNNNNNNNNNNNNNNNNNN */}
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
         {/* <div className="absolute mt-[-10rem] ml-[3rem]">
@@ -146,7 +136,6 @@ const AboutUs = (): JSX.Element => {
           />
         </div> */}
       </div>
-      
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -165,14 +154,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-      </div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -189,7 +172,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -205,7 +187,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -221,31 +202,10 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-4rem] ml-[57rem]">
-          <Image
-            src={redStair}
-            width={170} height={300}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-    </div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -264,15 +224,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-          </div>*/}
         </div>
       </div>
-      
-      
       <div className="mt-[2rem] md:flex md:flex-row "style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -289,7 +242,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -305,7 +257,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -321,9 +272,7 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row "style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -340,7 +289,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -357,30 +305,9 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
-      
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] ">
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-6rem] ml-[20rem]">
-          <Image
-            src={blueStair}
-            width={360} height={260}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-        </div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -399,11 +326,6 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[1.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-      </div>*/}
           <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={personalia}
@@ -411,7 +333,6 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -428,7 +349,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[0rem] md:flex md:flex-col md:mt-[-3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -445,7 +365,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -461,32 +380,10 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-      
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-7.5rem] ml-[45rem]">
-          <Image
-            src={redStair2}
-            width={485} height={485}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-    </div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -505,14 +402,8 @@ const AboutUs = (): JSX.Element => {
               width = {300} height = {300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-  </div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -529,7 +420,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -545,7 +435,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -561,10 +450,7 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-      
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -582,30 +468,9 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-4rem] ml-[57rem]">
-          <Image
-            src={redStair}
-            width={170} height={300}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-</div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -624,14 +489,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-</div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -648,7 +507,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -664,7 +522,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -680,9 +537,7 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -699,7 +554,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -715,7 +569,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -731,31 +584,10 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-6rem] ml-[20rem]">
-          <Image
-            src={blueStair}
-            width={360} height={260}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-</div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -774,14 +606,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-</div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -798,7 +624,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -814,7 +639,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -830,31 +654,10 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-7.5rem] ml-[45rem]">
-          <Image
-            src={redStair2}
-            width={485} height={485}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-        </div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -873,14 +676,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-      </div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -897,7 +694,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -913,7 +709,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -929,9 +724,7 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -949,29 +742,9 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
-          <Image
-            src={flowerLeft}
-            width={240} height={150}
-          />
-        </div>
-        <div className="absolute mt-[-7.5rem] ml-[7rem]">
-          <Image
-            src={redStair2}
-            width={485} height={485}
-          />
-        </div>
-        <div className="absolute mt-[-10rem] ml-[75rem]">
-          <Image
-            src={flowerRight}
-            width={240} height={150}
-          />
-    </div>*/}
       </div>
-
       <div className="mt-[50px] mx-[20px] h-auto">
         <div className="relative h-auto w-full">
           <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -990,14 +763,8 @@ const AboutUs = (): JSX.Element => {
               width={300} height={300}
             />
           </div>
-          {/*<div className="absolute z-4 mt-[-1rem] ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={gajah}
-            />
-  </div>*/}
         </div>
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -1014,7 +781,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -1030,7 +796,6 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <div className="flex-1">
@@ -1046,9 +811,7 @@ const AboutUs = (): JSX.Element => {
             </div>
           </div>
         </div>
-
       </div>
-
       <div className="mt-[2rem] md:flex md:flex-row mb-[45rem] sm:mb-[55rem] md:mb-[85rem] xl:mb-[100rem]"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
         <div className="relative text-center h-auto w-full">
           <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
@@ -1066,8 +829,6 @@ const AboutUs = (): JSX.Element => {
           </div>
         </div>
       </div>
-
-      
       <div className="absolute bottom-0">
         <Sponsors />
       </div>
