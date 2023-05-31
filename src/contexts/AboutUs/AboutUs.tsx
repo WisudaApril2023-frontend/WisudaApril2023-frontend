@@ -93,7 +93,7 @@ import fotoKomandanLapangan3 from '@src/assets/images/AboutUs/icon/foto/Lapangan
 
 const AboutUs = (): JSX.Element => {
   return (
-    <div className="overflow-hidden flex flex-col mb-[10rem]">
+    <div className="overflow-hidden flex flex-col mb-[10rem] text-center">
       <div className="mt-[4rem] h-auto w-screen">
         <div className="mx-[20px] text-center" style={{
           filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))'
@@ -129,6 +129,7 @@ const AboutUs = (): JSX.Element => {
         </div>
       </div>
 
+      
       {/* LANJUTKAAAANNNNNNNNNNNNNNNNNNNN */}
       <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
@@ -145,72 +146,87 @@ const AboutUs = (): JSX.Element => {
           />
         </div> */}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+      
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoSekjen}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[9.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kesekjenan}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoSekjen}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-row ml-[12.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-        <div className="flex-1">
-          <Image
-            src={sekretaris}
-          />
-        </div>
-        <div className="flex-1 ml-[4rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={bendahara}
-          />
-        </div>
-        <div className="flex-1 ml-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={divisiPerizinan}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-        <div className="flex-1">
-          <Image
-            src={fotoSekretaris}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoBendahara}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoDivisiPerizinan}
-            width={400} height={300}
-          />
+      </div>*/}
         </div>
       </div>
 
-      <div className = "mt-[5rem]" >
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={sekretaris}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoSekretaris}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={bendahara}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoBendahara}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={divisiPerizinan}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoDivisiPerizinan}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -227,100 +243,125 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+    </div>*/}
       </div>
 
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidAcara}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[8.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidAcara}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidAcara}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+          </div>*/}
+        </div>
+      </div>
+      
+      
+      <div className="mt-[2rem] md:flex md:flex-row "style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidAcara}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidAcara}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={appreciation}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoAppreciation}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={entchair}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoEntchair}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row "style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={education}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoEducation}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={multiKampus}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoMultiKampus}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row ml-[12.5rem]">
-        <div className="flex-1 ml-[-5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidAcara}
-          />
-        </div>
-        <div className="flex-1 ml-[12rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={appreciation}
-          />
-        </div>
-        <div className="flex-1 ml-[11rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={entchair}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidAcara}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoAppreciation}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoEntchair}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[14.5rem] mt-[2rem]">
-        <div className="flex-1 ml-[12rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={education}
-          />
-        </div>
-        <div className="flex-1 ml-[-11rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={multiKampus}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1 ml-[13rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoEducation}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1 ml-[-13rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoMultiKampus}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+
+      
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] ">
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -337,79 +378,96 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+        </div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[9rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidManajemen}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidManajemen}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[1.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidManajemen}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[1.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
-          </div>
-          <div className="absolute z-5 mt-[28rem] ml-[10rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+      </div>*/}
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={personalia}
             />
           </div>
         </div>
       </div>
-      <div className="flex flex-row ml-[14.5rem] mt-[4rem]">
-        <div className="flex-1 ml-[-6.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidManajemen}
-          />
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidManajemen}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidManajemen}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex-1 ml-[16rem] mt-[-2.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={msdm}
-            width={120} height={120}
-          />
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[0rem] md:flex md:flex-col md:mt-[-3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={msdm}
+                width={120} height={120}
+              />
+            </div>
+            <div className="flex-1 mt-[-1.5rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoMsdm}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex-1 ml-[10rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={psdm}
-          />
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={psdm}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoPsdm}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
+
       </div>
-      <div className="flex flex-row ml-[6rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidManajemen}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoMsdm}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoPsdm}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+      
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -426,88 +484,109 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+    </div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidRelasi}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[8.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidRelasi}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidRelasi}
+              width = {300} height = {300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[4.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+  </div>*/}
+        </div>
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidRelasi}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidRelasi}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={intraKampus}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoIntraKampus}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={ekstraKampus}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoEkstraKampus}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={medPart}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoMedPart}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row ml-[14.5rem]">
-        <div className="flex-1 ml-[-8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidRelasi}
-          />
-        </div>
-        <div className="flex-1 ml-[10rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={intraKampus}
-          />
-        </div>
-        <div className="flex-1 ml-[4rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={ekstraKampus}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidRelasi}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoIntraKampus}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoEkstraKampus}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[30rem] mt-[2rem]">
-        <div className="flex-1 ml-[14rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={medPart}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[26rem] mt-[2rem]">
-        <div className="flex-1 ml-[10rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoMedPart}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px]" >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -524,110 +603,140 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+</div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidKreatif}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[7rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidKreatif}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidKreatif}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+</div>*/}
+        </div>
+      </div>
+
+      <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidKreatif}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidKreatif}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={grafis}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoGrafis}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={publikasi}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoPublikasi}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div className="flex flex-row ml-[14.5rem]">
-        <div className="flex-1 ml-[-7.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidKreatif}
-          />
+
+      <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={dokumentasi}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoDokumentasi}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex-1 ml-[15rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={grafis}
-          />
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={artistik}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoArtistik}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex-1 ml-[6rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={publikasi}
-          />
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={medinfo}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoMedinfo}
+                width={300} height={300}
+              />
+            </div>
+          </div>
         </div>
+
       </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidKreatif}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoGrafis}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoPublikasi}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[14.5rem] mt-[2rem]">
-        <div className="flex-1 ml-[-3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={dokumentasi}
-          />
-        </div>
-        <div className="flex-1 ml-[10rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={artistik}
-          />
-        </div>
-        <div className="flex-1 ml-[7rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={medinfo}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoDokumentasi}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoArtistik}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoMedinfo}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -644,73 +753,89 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+</div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[9rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidFundraising}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidFundraising}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidFundraising}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+</div>*/}
+        </div>
+      </div>
+
+      <div className="mt-[2rem] md:flex flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidFundraising}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidFundraising}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={entrepreneur}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoEntrepreneur}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={sponsorship}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoSponsorship}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div className="flex flex-row ml-[14.5rem]">
-        <div className="flex-1 ml-[-8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidFundraising}
-          />
-        </div>
-        <div className="flex-1 ml-[11rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={entrepreneur}
-          />
-        </div>
-        <div className="flex-1 ml-[7rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={sponsorship}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidFundraising}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoEntrepreneur}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoSponsorship}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -727,88 +852,107 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+        </div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8.5rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKabidOperasional}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={kabidOperasional}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKabidOperasional}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+      </div>*/}
+        </div>
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={wakabidOperasional}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoWakabidOperasional}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={logistik}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoLogistik}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={it}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoIt}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={produksi}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoProduksi}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row ml-[14.5rem]">
-        <div className="flex-1 ml-[-5.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={wakabidOperasional}
-          />
-        </div>
-        <div className="flex-1 ml-[17rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={logistik}
-          />
-        </div>
-        <div className="flex-1 ml-[15rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={it}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoWakabidOperasional}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoLogistik}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoIt}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[14.5rem] mt-[3rem]">
-        <div className="flex-1 ml-[28.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={produksi}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[7rem] mt-[2rem]">
-        <div className="flex-1 ml-[28.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoProduksi}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className = "mt-[5rem]" >
+
+      <div className = "mt-[20px] sm:mt-[50px] md:mt-[100px] xl:mt-[150px] " >
         <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto"></hr>
-        <div className="absolute mt-[-10rem] ml-[3rem]">
+        {/*<div className="absolute mt-[-10rem] ml-[3rem]">
           <Image
             src={flowerLeft}
             width={240} height={150}
@@ -825,88 +969,105 @@ const AboutUs = (): JSX.Element => {
             src={flowerRight}
             width={240} height={150}
           />
-        </div>
+    </div>*/}
       </div>
-      <div className="mt-[1rem] mx-auto h-[30rem] w-full">
-        <div className="relative text-center translate-x-[33.5%]">
-          <div className="absolute z-1 ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+
+      <div className="mt-[50px] mx-[20px] h-auto">
+        <div className="relative h-auto w-full">
+          <div className="absolute h-auto w-full top-0 left-0 right-0 bottom-0 items-center justify-center" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={light}
             />
           </div>
-          <div className="absolute z-2 mt-[8.5rem] ml-[8rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-            <Image
-              src={fotoKoordinatorLapangan}
-              width={250} height={300}
-            />
-          </div>
-          <div className="absolute z-3 mt-[4rem] ml-[3rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={koordinatorLapangan}
             />
           </div>
-          <div className="absolute z-4 mt-[-1rem] ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+          <div className="" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <Image
+              src={fotoKoordinatorLapangan}
+              width={300} height={300}
+            />
+          </div>
+          {/*<div className="absolute z-4 mt-[-1rem] ml-[-1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
             <Image
               src={gajah}
             />
+  </div>*/}
+        </div>
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={sekretarisLapangan}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoSekretarisLapangan}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={komandanLapangan}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoKomandanLapangan1}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col mt-[2rem] md:flex md:flex-col md:mt-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={komandanLapangan}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem] " style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoKomandanLapangan2}
+                width={300} height={300}
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="mt-[2rem] md:flex md:flex-row mb-[45rem] sm:mb-[55rem] md:mb-[85rem] xl:mb-[100rem]"style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+        <div className="relative text-center h-auto w-full">
+          <div className="flex flex-col" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+            <div className="flex-1">
+              <Image
+                src={komandanLapangan}
+              />
+            </div>
+            <div className="flex-1 mt-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
+              <Image
+                src={fotoKomandanLapangan3}
+                width={300} height={300}
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row ml-[14.5rem]">
-        <div className="flex-1 ml-[-7rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={sekretarisLapangan}
-          />
-        </div>
-        <div className="flex-1 ml-[0rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={komandanLapangan}
-          />
-        </div>
-        <div className="flex-1 ml-[1rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={komandanLapangan}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[6rem] mt-[2rem]">
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoSekretarisLapangan}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoKomandanLapangan1}
-            width={400} height={300}
-          />
-        </div>
-        <div className="flex-1" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoKomandanLapangan2}
-            width={400} height={300}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[14.5rem] mt-[3rem]">
-        <div className="flex-1 ml-[22.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={komandanLapangan}
-          />
-        </div>
-      </div>
-      <div className="flex flex-row ml-[12.5rem] mt-[2rem]">
-        <div className="flex-1 ml-[27.5rem]" style={{ filter: 'drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.25))' }}>
-          <Image
-            src={fotoKomandanLapangan3}
-            width={250} height={300}
-          />
-        </div>
-      </div>
-      <div className="h-[107rem]">
-      </div>
-      <hr className="py-1 border-0 bg-[#ECA829] w-5/6 mx-auto mt-[4rem]"></hr>
+
+      
       <div className="absolute bottom-0">
         <Sponsors />
       </div>
